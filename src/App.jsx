@@ -5,14 +5,16 @@ import OgrenmeModu from './components/OgrenmeModu.jsx';
 import YanliklarModu from './components/YanliklarModu.jsx';
 import MiniSinav from './components/MiniSinav.jsx';
 import GenelDurum from './components/GenelDurum.jsx';
+import VeriKontrolPaneli from './components/VeriKontrolPaneli.jsx';
 import sorularJson from './data/questions.json';
 
 const MODLAR = {
-  DERSLER:   'dersler',
-  OGRENME:   'ogrenme',
-  YANLISLAR: 'yanlislar',
-  SINAV:     'sinav',
-  GENEL:     'genel',
+  DERSLER:      'dersler',
+  OGRENME:      'ogrenme',
+  YANLISLAR:    'yanlislar',
+  SINAV:        'sinav',
+  GENEL:        'genel',
+  VERI_KONTROL: 'veri_kontrol',
 };
 
 export default function App() {
@@ -91,6 +93,13 @@ export default function App() {
           >
             Genel Durum
           </button>
+          <button
+            className={`nav-btn ${mod === MODLAR.VERI_KONTROL ? 'aktif' : ''}`}
+            onClick={() => modGec(MODLAR.VERI_KONTROL)}
+            style={{ fontSize: '0.8rem', color: 'var(--acik)' }}
+          >
+            Veri Kontrol
+          </button>
           {anaEkran && (
             <>
               {!onayVeriSil ? (
@@ -137,6 +146,13 @@ export default function App() {
         <GenelDurum
           sorular={sorularJson}
           durum={durum}
+          onGeri={geriDon}
+        />
+      )}
+
+      {mod === MODLAR.VERI_KONTROL && (
+        <VeriKontrolPaneli
+          sorular={sorularJson}
           onGeri={geriDon}
         />
       )}

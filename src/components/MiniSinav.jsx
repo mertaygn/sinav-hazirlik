@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { sinavKaydet } from '../utils/localStorage.js';
-import { netHesapla, tahminPuanHesapla, riskDurumu, karistirilmisArray } from '../utils/hesaplamalar.js';
+import { netHesapla, tahminPuanHesapla, riskDurumu, karistirilmisArray, sinavSoruFiltrele } from '../utils/hesaplamalar.js';
 
 const SINAV_SORU_SAYISI = 20;
 
@@ -12,7 +12,8 @@ export default function MiniSinav({ sorular, dersKodu, dersAdi, durum, onDurumGu
   const [bitti, setBitti] = useState(false);
 
   useEffect(() => {
-    const dersS = sorular.filter(s => s.dersKodu === dersKodu);
+    // Sadece kontrol_edildi soruları kullan
+    const dersS = sinavSoruFiltrele(sorular, dersKodu);
     const karisik = karistirilmisArray(dersS);
     setSinavSorulari(karisik.slice(0, SINAV_SORU_SAYISI));
     setIndex(0);

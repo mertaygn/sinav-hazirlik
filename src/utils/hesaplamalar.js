@@ -1,4 +1,9 @@
 export function netHesapla(dogru, yanlis) {
+  const ham = dogru - yanlis / 4;
+  return Math.max(0, ham); // negatif net 0'a sabitlenir
+}
+
+export function netHesaplaHam(dogru, yanlis) {
   return dogru - yanlis / 4;
 }
 
@@ -41,6 +46,13 @@ export function dersleriSirala(dersler, durum) {
 
 export function dersOncelikAciklama(dersKodu) {
   return DERS_ONCELIGI[dersKodu]?.aciklama || '';
+}
+
+// Mini sınav için sadece güvenilir (kontrol_edildi) soruları filtrele
+export function sinavSoruFiltrele(sorular, dersKodu) {
+  return sorular.filter(
+    s => s.dersKodu === dersKodu && s.guvenDurumu === 'kontrol_edildi'
+  );
 }
 
 export function karistirilmisArray(arr) {
