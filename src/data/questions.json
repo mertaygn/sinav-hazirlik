@@ -2054,1385 +2054,6 @@
     "kontrolEden": "Sistem"
   },
   {
-    "id": "IKT104-001",
-    "dersKodu": "İKT104U",
-    "dersAdi": "İktisada Giriş II",
-    "unite": 1,
-    "konu": "Talep",
-    "soru": "Fiyat artışı karşısında talep edilen miktarın çok az değişmesi durumunda talep nasıl nitelendirilir?",
-    "secenekler": {
-      "A": "Esnek",
-      "B": "Birim esnek",
-      "C": "Tam esnek",
-      "D": "Esnek olmayan",
-      "E": "Tam katı"
-    },
-    "dogruCevap": "D",
-    "aciklama": "Fiyat değişimine karşı talep edilen miktarın az değişmesi 'esnek olmayan (inelastik)' talep olarak adlandırılır.",
-    "zorluk": "kolay",
-    "etiketler": [
-      "talep esnekliği"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "IKT104-002",
-    "dersKodu": "İKT104U",
-    "dersAdi": "İktisada Giriş II",
-    "unite": 1,
-    "konu": "Talep Esnekliği",
-    "soru": "Bir malın fiyatı %10 artınca talep edilen miktarı %20 azalıyorsa talep esnekliği kaçtır?",
-    "secenekler": {
-      "A": "0,5",
-      "B": "1,0",
-      "C": "1,5",
-      "D": "2,0",
-      "E": "2,5"
-    },
-    "dogruCevap": "D",
-    "aciklama": "Talep esnekliği = % miktar değişimi / % fiyat değişimi = 20/10 = 2. Değer 1'den büyük olduğu için talep esnektir.",
-    "zorluk": "orta",
-    "etiketler": [
-      "talep esnekliği",
-      "hesaplama"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "IKT104-003",
-    "dersKodu": "İKT104U",
-    "dersAdi": "İktisada Giriş II",
-    "unite": 1,
-    "konu": "Talep",
-    "soru": "Aşağıdakilerden hangisi talebi artıran faktörlerden biri değildir?",
-    "secenekler": {
-      "A": "Tüketici gelirinin artması",
-      "B": "Malın fiyatının artması",
-      "C": "İkame malın fiyatının artması",
-      "D": "Tüketici sayısının artması",
-      "E": "Gelecekte fiyatların artacağı beklentisi"
-    },
-    "dogruCevap": "B",
-    "aciklama": "Malın kendi fiyatı artınca talep azalır (ters ilişki). Diğer faktörler talep eğrisini sağa (artışa) kaydırır.",
-    "zorluk": "kolay",
-    "etiketler": [
-      "talep değişkenleri"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "IKT104-004",
-    "dersKodu": "İKT104U",
-    "dersAdi": "İktisada Giriş II",
-    "unite": 1,
-    "konu": "Arz",
-    "soru": "Arz eğrisini sağa kaydıran (arzı artıran) faktörlerden biri aşağıdakilerden hangisidir?",
-    "secenekler": {
-      "A": "Üretim maliyetlerinin artması",
-      "B": "Teknolojinin gelişmesi",
-      "C": "Vergilerin artması",
-      "D": "Giriş bariyerlerinin yükselmesi",
-      "E": "Doğal afet"
-    },
-    "dogruCevap": "B",
-    "aciklama": "Teknolojinin gelişmesi üretim verimliliğini artırarak arzı artırır ve arz eğrisini sağa kaydırır.",
-    "zorluk": "kolay",
-    "etiketler": [
-      "arz değişkenleri"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "IKT104-005",
-    "dersKodu": "İKT104U",
-    "dersAdi": "İktisada Giriş II",
-    "unite": 1,
-    "konu": "Piyasa Dengesi",
-    "soru": "Talep artarken arz sabit kalırsa piyasa denge fiyatında ne olur?",
-    "secenekler": {
-      "A": "Azalır",
-      "B": "Sabit kalır",
-      "C": "Artar",
-      "D": "Sıfıra düşer",
-      "E": "Önce azalır sonra artar"
-    },
-    "dogruCevap": "C",
-    "aciklama": "Arz sabitken talep artınca denge fiyatı yükselir ve denge miktarı da artar.",
-    "zorluk": "kolay",
-    "etiketler": [
-      "denge fiyatı"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "IKT104-006",
-    "dersKodu": "İKT104U",
-    "dersAdi": "İktisada Giriş II",
-    "unite": 6,
-    "konu": "Millî Gelir",
-    "soru": "Tüm ülke sınırları içinde bir yılda üretilen nihai mal ve hizmetlerin piyasa değerinin toplamına ne ad verilir?",
-    "secenekler": {
-      "A": "GSMH",
-      "B": "GSYİH",
-      "C": "NMH",
-      "D": "Milli gelir",
-      "E": "Kişisel gelir"
-    },
-    "dogruCevap": "B",
-    "aciklama": "GSYİH (Gayri Safi Yurt İçi Hasıla), ülke topraklarında üretilen tüm nihai mal ve hizmetlerin piyasa değeridir.",
-    "zorluk": "kolay",
-    "etiketler": [
-      "GSYİH",
-      "milli gelir"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "IKT104-007",
-    "dersKodu": "İKT104U",
-    "dersAdi": "İktisada Giriş II",
-    "unite": 6,
-    "konu": "Enflasyon",
-    "soru": "Enflasyon aşağıdakilerden hangisi ile ölçülür?",
-    "secenekler": {
-      "A": "GSYİH",
-      "B": "İşsizlik oranı",
-      "C": "Tüketici fiyat endeksi",
-      "D": "Faiz oranı",
-      "E": "Döviz kuru"
-    },
-    "dogruCevap": "C",
-    "aciklama": "Enflasyon, Tüketici Fiyat Endeksi (TÜFE) ile ölçülür; belirli bir sepetteki mal ve hizmetlerin fiyat değişimini gösterir.",
-    "zorluk": "kolay",
-    "etiketler": [
-      "enflasyon"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "IKT104-008",
-    "dersKodu": "İKT104U",
-    "dersAdi": "İktisada Giriş II",
-    "unite": 6,
-    "konu": "İşsizlik",
-    "soru": "İş gücünde olup aktif iş arayan ancak iş bulamayanların toplam iş gücüne oranına ne denir?",
-    "secenekler": {
-      "A": "Enflasyon oranı",
-      "B": "İşsizlik oranı",
-      "C": "Büyüme oranı",
-      "D": "Katılım oranı",
-      "E": "Verimlilik oranı"
-    },
-    "dogruCevap": "B",
-    "aciklama": "İşsizlik oranı = (işsiz sayısı / iş gücü) × 100. İş aramaktan vazgeçenler işsiz sayılmaz.",
-    "zorluk": "kolay",
-    "etiketler": [
-      "işsizlik"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "IKT104-009",
-    "dersKodu": "İKT104U",
-    "dersAdi": "İktisada Giriş II",
-    "unite": 6,
-    "konu": "Makro Ekonomi",
-    "soru": "Ekonomik büyüme dönemlerinde işsizliğin azalmasını ifade eden ilişkiye ne ad verilir?",
-    "secenekler": {
-      "A": "Phillips eğrisi",
-      "B": "Okun yasası",
-      "C": "Fisher denklemi",
-      "D": "Keynes çarpanı",
-      "E": "Laffer eğrisi"
-    },
-    "dogruCevap": "B",
-    "aciklama": "Okun Yasası: GSYİH büyüme oranı ile işsizlik oranı arasındaki negatif ilişkiyi ifade eder.",
-    "zorluk": "orta",
-    "etiketler": [
-      "Okun yasası",
-      "büyüme"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "IKT104-010",
-    "dersKodu": "İKT104U",
-    "dersAdi": "İktisada Giriş II",
-    "unite": 7,
-    "konu": "Para Politikası",
-    "soru": "Merkez bankasının para arzını artırması aşağıdaki politika türlerinden hangisidir?",
-    "secenekler": {
-      "A": "Daraltıcı maliye politikası",
-      "B": "Genişletici maliye politikası",
-      "C": "Daraltıcı para politikası",
-      "D": "Genişletici para politikası",
-      "E": "Döviz kuru politikası"
-    },
-    "dogruCevap": "D",
-    "aciklama": "Merkez bankasının para arzını artırması (faiz indirimi, tahvil alımı) genişletici para politikasıdır.",
-    "zorluk": "kolay",
-    "etiketler": [
-      "para politikası"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "IKT104-011",
-    "dersKodu": "İKT104U",
-    "dersAdi": "İktisada Giriş II",
-    "unite": 5,
-    "konu": "Piyasa Yapıları",
-    "soru": "Monopolcü (tekelci) firma için aşağıdakilerden hangisi doğrudur?",
-    "secenekler": {
-      "A": "Fiyat alıcıdır",
-      "B": "Talep eğrisi yatay doğrudur",
-      "C": "Fiyat belirleyicidir",
-      "D": "Uzun dönemde ekonomik kâr sıfıra eşittir",
-      "E": "Piyasaya giriş serbesttir"
-    },
-    "dogruCevap": "C",
-    "aciklama": "Tekelci piyasada tek satıcı olduğu için firma fiyatı belirleyicidir (price maker). Piyasaya giriş engellidir.",
-    "zorluk": "orta",
-    "etiketler": [
-      "tekel",
-      "piyasa yapısı"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "IKT104-012",
-    "dersKodu": "İKT104U",
-    "dersAdi": "İktisada Giriş II",
-    "unite": 5,
-    "konu": "Tam Rekabet",
-    "soru": "Tam rekabet piyasasındaki bir firma için uzun dönem denge koşulu aşağıdakilerden hangisidir?",
-    "secenekler": {
-      "A": "Fiyat > Ortalama maliyet",
-      "B": "Fiyat < Ortalama maliyet",
-      "C": "Fiyat = Ortalama maliyet",
-      "D": "Fiyat = Marjinal maliyet × 2",
-      "E": "Marjinal gelir < Marjinal maliyet"
-    },
-    "dogruCevap": "C",
-    "aciklama": "Tam rekabette uzun dönem dengesinde Fiyat = Ortalama Maliyet = Marjinal Maliyet; ekonomik kâr sıfırdır.",
-    "zorluk": "orta",
-    "etiketler": [
-      "tam rekabet"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "IKT104-013",
-    "dersKodu": "İKT104U",
-    "dersAdi": "İktisada Giriş II",
-    "unite": 4,
-    "konu": "Üretim Maliyetleri",
-    "soru": "Kısa dönemde sabit maliyetler ile değişken maliyetlerin toplamına ne denir?",
-    "secenekler": {
-      "A": "Marjinal maliyet",
-      "B": "Ortalama değişken maliyet",
-      "C": "Toplam maliyet",
-      "D": "Fırsat maliyeti",
-      "E": "Batık maliyet"
-    },
-    "dogruCevap": "C",
-    "aciklama": "Toplam Maliyet = Toplam Sabit Maliyet + Toplam Değişken Maliyet. Kısa dönemde sabit maliyetler değişmez.",
-    "zorluk": "kolay",
-    "etiketler": [
-      "maliyet"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "IKT104-014",
-    "dersKodu": "İKT104U",
-    "dersAdi": "İktisada Giriş II",
-    "unite": 8,
-    "konu": "Maliye Politikası",
-    "soru": "Devletin kamu harcamaları ve vergi politikalarını kullanarak ekonomiyi etkilemesine ne ad verilir?",
-    "secenekler": {
-      "A": "Para politikası",
-      "B": "Maliye politikası",
-      "C": "Döviz kuru politikası",
-      "D": "Ticaret politikası",
-      "E": "Gelirler politikası"
-    },
-    "dogruCevap": "B",
-    "aciklama": "Maliye politikası, devletin bütçe (harcama ve vergi) araçlarını kullanarak ekonomik hedeflere ulaşma çabasıdır.",
-    "zorluk": "kolay",
-    "etiketler": [
-      "maliye politikası"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "IKT104-015",
-    "dersKodu": "İKT104U",
-    "dersAdi": "İktisada Giriş II",
-    "unite": 7,
-    "konu": "Para Teorisi",
-    "soru": "Bir ülkede para arzı artınca (diğer koşullar sabitken) genel fiyat düzeyi ne yönde değişir?",
-    "secenekler": {
-      "A": "Düşer",
-      "B": "Sabit kalır",
-      "C": "Artar",
-      "D": "Önce düşer sonra artar",
-      "E": "Belirsiz kalır"
-    },
-    "dogruCevap": "C",
-    "aciklama": "Miktar teorisine göre para arzı artınca reel üretim değişmezse fiyatlar genel seviyesi artar (enflasyon).",
-    "zorluk": "kolay",
-    "etiketler": [
-      "para arzı",
-      "enflasyon"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "IKT104-016",
-    "dersKodu": "İKT104U",
-    "dersAdi": "İktisada Giriş II",
-    "unite": 3,
-    "konu": "Temel İktisat Kavramları",
-    "soru": "Bir malın üretiminden vazgeçildiğinde elde edilebilecek en iyi alternatifin değerine ne denir?",
-    "secenekler": {
-      "A": "Muhasebe maliyeti",
-      "B": "Batık maliyet",
-      "C": "Fırsat maliyeti",
-      "D": "Değişken maliyet",
-      "E": "Sabit maliyet"
-    },
-    "dogruCevap": "C",
-    "aciklama": "Fırsat maliyeti, bir seçim yapıldığında vazgeçilen en iyi alternatifin değeridir; iktisadın temel kavramlarından biridir.",
-    "zorluk": "kolay",
-    "etiketler": [
-      "fırsat maliyeti"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "IKT104-017",
-    "dersKodu": "İKT104U",
-    "dersAdi": "İktisada Giriş II",
-    "unite": 5,
-    "konu": "Piyasa Yapıları",
-    "soru": "Oligopol piyasasının temel özelliği aşağıdakilerden hangisidir?",
-    "secenekler": {
-      "A": "Çok sayıda satıcı",
-      "B": "Homojen ürün ve serbest giriş",
-      "C": "Az sayıda satıcı ve karşılıklı bağımlılık",
-      "D": "Tek satıcı",
-      "E": "Tam bilgi"
-    },
-    "dogruCevap": "C",
-    "aciklama": "Oligopolde az sayıda büyük firma vardır; her firmanın kararı diğerlerini etkiler (karşılıklı bağımlılık).",
-    "zorluk": "orta",
-    "etiketler": [
-      "oligopol"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "IKT104-018",
-    "dersKodu": "İKT104U",
-    "dersAdi": "İktisada Giriş II",
-    "unite": 2,
-    "konu": "Talep Teorisi",
-    "soru": "Normal bir mal için fiyat yükselince ikame etkisi ve gelir etkisinin her ikisi de talebi hangi yönde etkiler?",
-    "secenekler": {
-      "A": "Her ikisi de artırır",
-      "B": "Her ikisi de azaltır",
-      "C": "İkame etkisi artırır, gelir etkisi azaltır",
-      "D": "İkame etkisi azaltır, gelir etkisi artırır",
-      "E": "İkisi birbirini dengeler"
-    },
-    "dogruCevap": "B",
-    "aciklama": "Normal mallarda fiyat artınca: ikame etkisiyle o malın yerine ucuz mal tercih edilir (talep azalır), gelir etkisiyle reel gelir düşer (talep azalır).",
-    "zorluk": "zor",
-    "etiketler": [
-      "ikame etkisi",
-      "gelir etkisi"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "IKT104-019",
-    "dersKodu": "İKT104U",
-    "dersAdi": "İktisada Giriş II",
-    "unite": 8,
-    "konu": "Dış Ticaret",
-    "soru": "Bir ülkenin toplam ihracatının toplam ithalatından fazla olduğu duruma ne ad verilir?",
-    "secenekler": {
-      "A": "Dış ticaret açığı",
-      "B": "Dış ticaret fazlası",
-      "C": "Ödemeler dengesi",
-      "D": "Bütçe açığı",
-      "E": "Cari açık"
-    },
-    "dogruCevap": "B",
-    "aciklama": "İhracat > İthalat ise dış ticaret fazlası oluşur; bu durum ekonomiye döviz girişi sağlar.",
-    "zorluk": "kolay",
-    "etiketler": [
-      "dış ticaret"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "IKT104-020",
-    "dersKodu": "İKT104U",
-    "dersAdi": "İktisada Giriş II",
-    "unite": 8,
-    "konu": "Keynesyen İktisat",
-    "soru": "Keynes'e göre ekonomik durgunluk döneminde hükümet ne yapmalıdır?",
-    "secenekler": {
-      "A": "Kamu harcamalarını azaltmalı",
-      "B": "Vergileri artırmalı",
-      "C": "Kamu harcamalarını artırmalı",
-      "D": "Para arzını azaltmalı",
-      "E": "Dış ticareti kısıtlamalı"
-    },
-    "dogruCevap": "C",
-    "aciklama": "Keynesyen yaklaşıma göre durgunlukta devlet harcamalarını artırarak toplam talebi ve istihdamı canlandırmalıdır.",
-    "zorluk": "orta",
-    "etiketler": [
-      "Keynes",
-      "maliye politikası"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "ING102-001",
-    "dersKodu": "İNG102U",
-    "dersAdi": "İngilizce II",
-    "unite": 1,
-    "konu": "Simple Present Tense",
-    "soru": "Choose the correct sentence:",
-    "secenekler": {
-      "A": "She go to school every day.",
-      "B": "She goes to school every day.",
-      "C": "She is going to school every day.",
-      "D": "She gone to school every day.",
-      "E": "She did go to school every day."
-    },
-    "dogruCevap": "B",
-    "aciklama": "3. tekil şahıs (she/he/it) için Simple Present'ta fiile -s/-es eklenir: 'She goes'.",
-    "zorluk": "kolay",
-    "etiketler": [
-      "simple present",
-      "grammar"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "ING102-002",
-    "dersKodu": "İNG102U",
-    "dersAdi": "İngilizce II",
-    "unite": 1,
-    "konu": "Past Simple",
-    "soru": "What is the past tense of 'go'?",
-    "secenekler": {
-      "A": "goed",
-      "B": "gone",
-      "C": "went",
-      "D": "going",
-      "E": "goes"
-    },
-    "dogruCevap": "C",
-    "aciklama": "'Go' fiilinin geçmiş zaman hali düzensiz olarak 'went' şeklindedir.",
-    "zorluk": "kolay",
-    "etiketler": [
-      "irregular verbs",
-      "past simple"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "ING102-003",
-    "dersKodu": "İNG102U",
-    "dersAdi": "İngilizce II",
-    "unite": 1,
-    "konu": "To Be",
-    "soru": "Fill in the blank: I _____ a doctor.",
-    "secenekler": {
-      "A": "am",
-      "B": "is",
-      "C": "are",
-      "D": "be",
-      "E": "been"
-    },
-    "dogruCevap": "A",
-    "aciklama": "'To be' fiilinin geniş zamandaki çekimi: I am, you are, he/she/it is.",
-    "zorluk": "kolay",
-    "etiketler": [
-      "to be"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "ING102-004",
-    "dersKodu": "İNG102U",
-    "dersAdi": "İngilizce II",
-    "unite": 2,
-    "konu": "Vocabulary",
-    "soru": "Which word means 'mutlu' in English?",
-    "secenekler": {
-      "A": "Sad",
-      "B": "Angry",
-      "C": "Happy",
-      "D": "Tired",
-      "E": "Scared"
-    },
-    "dogruCevap": "C",
-    "aciklama": "'Happy' = mutlu. Sad = üzgün, Angry = sinirli, Tired = yorgun, Scared = korkmuş.",
-    "zorluk": "kolay",
-    "etiketler": [
-      "vocabulary",
-      "adjectives"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "ING102-005",
-    "dersKodu": "İNG102U",
-    "dersAdi": "İngilizce II",
-    "unite": 1,
-    "konu": "Question Forms",
-    "soru": "Choose the correct question form: _____ you speak English?",
-    "secenekler": {
-      "A": "Do",
-      "B": "Does",
-      "C": "Did",
-      "D": "Are",
-      "E": "Is"
-    },
-    "dogruCevap": "A",
-    "aciklama": "'You' ile Simple Present'ta soru kurmak için 'Do' kullanılır: Do you...?",
-    "zorluk": "kolay",
-    "etiketler": [
-      "question form"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "ING102-006",
-    "dersKodu": "İNG102U",
-    "dersAdi": "İngilizce II",
-    "unite": 2,
-    "konu": "Irregular Plurals",
-    "soru": "What is the plural of 'child'?",
-    "secenekler": {
-      "A": "childs",
-      "B": "children",
-      "C": "childes",
-      "D": "child",
-      "E": "childrens"
-    },
-    "dogruCevap": "B",
-    "aciklama": "'Child' düzensiz bir çoğul formuna sahiptir: child → children.",
-    "zorluk": "kolay",
-    "etiketler": [
-      "plural",
-      "irregular"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "ING102-007",
-    "dersKodu": "İNG102U",
-    "dersAdi": "İngilizce II",
-    "unite": 1,
-    "konu": "There is / There are",
-    "soru": "Fill in the blank: There _____ a book on the table.",
-    "secenekler": {
-      "A": "are",
-      "B": "were",
-      "C": "is",
-      "D": "be",
-      "E": "have"
-    },
-    "dogruCevap": "C",
-    "aciklama": "Tekil isimlerle 'there is', çoğul isimlerle 'there are' kullanılır. 'A book' tekil olduğu için 'there is'.",
-    "zorluk": "kolay",
-    "etiketler": [
-      "there is/are"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "ING102-008",
-    "dersKodu": "İNG102U",
-    "dersAdi": "İngilizce II",
-    "unite": 3,
-    "konu": "Future Tense",
-    "soru": "Which sentence is correct for future tense?",
-    "secenekler": {
-      "A": "I will going to the market.",
-      "B": "I will go to the market.",
-      "C": "I will went to the market.",
-      "D": "I will goes to the market.",
-      "E": "I will gone to the market."
-    },
-    "dogruCevap": "B",
-    "aciklama": "Will + fiil'in yalın hali kullanılır: 'I will go'. Will'den sonra fiilin yalın hali gelir.",
-    "zorluk": "kolay",
-    "etiketler": [
-      "future tense",
-      "will"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "ING102-009",
-    "dersKodu": "İNG102U",
-    "dersAdi": "İngilizce II",
-    "unite": 2,
-    "konu": "Vocabulary",
-    "soru": "What does 'expensive' mean in Turkish?",
-    "secenekler": {
-      "A": "Ucuz",
-      "B": "Pahalı",
-      "C": "Büyük",
-      "D": "Küçük",
-      "E": "Hızlı"
-    },
-    "dogruCevap": "B",
-    "aciklama": "'Expensive' = pahalı. Cheap/inexpensive = ucuz.",
-    "zorluk": "kolay",
-    "etiketler": [
-      "vocabulary"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "ING102-010",
-    "dersKodu": "İNG102U",
-    "dersAdi": "İngilizce II",
-    "unite": 2,
-    "konu": "Comparatives",
-    "soru": "Choose the correct comparative form: 'big' → _____",
-    "secenekler": {
-      "A": "more big",
-      "B": "biger",
-      "C": "bigger",
-      "D": "most big",
-      "E": "bigest"
-    },
-    "dogruCevap": "C",
-    "aciklama": "Tek heceli sıfatlarda son harf çiftlenerek -er eklenir: big → bigger. 'Most big' üstünlük derecesidir.",
-    "zorluk": "orta",
-    "etiketler": [
-      "comparatives",
-      "adjectives"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "ING102-011",
-    "dersKodu": "İNG102U",
-    "dersAdi": "İngilizce II",
-    "unite": 3,
-    "konu": "Past Continuous",
-    "soru": "Fill in the blank: She _____ TV when I called her.",
-    "secenekler": {
-      "A": "watched",
-      "B": "is watching",
-      "C": "was watching",
-      "D": "watches",
-      "E": "has watched"
-    },
-    "dogruCevap": "C",
-    "aciklama": "Geçmişte bir eylem gerçekleşirken olan başka bir eylem için Past Continuous kullanılır: was/were + V-ing.",
-    "zorluk": "orta",
-    "etiketler": [
-      "past continuous"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "ING102-012",
-    "dersKodu": "İNG102U",
-    "dersAdi": "İngilizce II",
-    "unite": 2,
-    "konu": "Parts of Speech",
-    "soru": "Which word is an adjective?",
-    "secenekler": {
-      "A": "Run",
-      "B": "Quickly",
-      "C": "Beautiful",
-      "D": "Happiness",
-      "E": "Slowly"
-    },
-    "dogruCevap": "C",
-    "aciklama": "'Beautiful' (güzel) bir sıfattır (adjective). Run = fiil, Quickly/Slowly = zarf, Happiness = isim.",
-    "zorluk": "kolay",
-    "etiketler": [
-      "adjective",
-      "parts of speech"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "ING102-013",
-    "dersKodu": "İNG102U",
-    "dersAdi": "İngilizce II",
-    "unite": 2,
-    "konu": "Vocabulary",
-    "soru": "What is the opposite of 'tall'?",
-    "secenekler": {
-      "A": "Big",
-      "B": "Long",
-      "C": "Wide",
-      "D": "Short",
-      "E": "Heavy"
-    },
-    "dogruCevap": "D",
-    "aciklama": "'Tall' (uzun boylu) kelimesinin karşıtı 'short' (kısa boylu)dur.",
-    "zorluk": "kolay",
-    "etiketler": [
-      "vocabulary",
-      "opposites"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "ING102-014",
-    "dersKodu": "İNG102U",
-    "dersAdi": "İngilizce II",
-    "unite": 2,
-    "konu": "Prepositions",
-    "soru": "Choose the correct preposition: I go to work _____ bus.",
-    "secenekler": {
-      "A": "in",
-      "B": "at",
-      "C": "on",
-      "D": "by",
-      "E": "with"
-    },
-    "dogruCevap": "D",
-    "aciklama": "Ulaşım araçlarıyla 'by' kullanılır: by bus, by car, by train.",
-    "zorluk": "kolay",
-    "etiketler": [
-      "prepositions",
-      "transport"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "ING102-015",
-    "dersKodu": "İNG102U",
-    "dersAdi": "İngilizce II",
-    "unite": 1,
-    "konu": "Question Words",
-    "soru": "Fill in the blank: _____ is your name?",
-    "secenekler": {
-      "A": "Where",
-      "B": "When",
-      "C": "What",
-      "D": "Who",
-      "E": "Why"
-    },
-    "dogruCevap": "C",
-    "aciklama": "İsim sormak için 'What' kullanılır: What is your name? = Adınız ne?",
-    "zorluk": "kolay",
-    "etiketler": [
-      "question words"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "ING102-016",
-    "dersKodu": "İNG102U",
-    "dersAdi": "İngilizce II",
-    "unite": 1,
-    "konu": "There is / There are",
-    "soru": "Which sentence uses 'there is/there are' correctly?",
-    "secenekler": {
-      "A": "There is many books on the shelf.",
-      "B": "There are a cat in the garden.",
-      "C": "There are many students in the class.",
-      "D": "There is some students here.",
-      "E": "There are a problem."
-    },
-    "dogruCevap": "C",
-    "aciklama": "'Many students' çoğul olduğu için 'there are' kullanılır. 'There are many students in the class.' doğrudur.",
-    "zorluk": "orta",
-    "etiketler": [
-      "there is/are"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "ING102-017",
-    "dersKodu": "İNG102U",
-    "dersAdi": "İngilizce II",
-    "unite": 2,
-    "konu": "Vocabulary",
-    "soru": "What does 'çalışmak' mean in English?",
-    "secenekler": {
-      "A": "to sleep",
-      "B": "to work",
-      "C": "to eat",
-      "D": "to read",
-      "E": "to run"
-    },
-    "dogruCevap": "B",
-    "aciklama": "'Çalışmak' = 'to work'. Uyumak = to sleep, Yemek = to eat, Okumak = to read, Koşmak = to run.",
-    "zorluk": "kolay",
-    "etiketler": [
-      "vocabulary",
-      "verbs"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "ING102-018",
-    "dersKodu": "İNG102U",
-    "dersAdi": "İngilizce II",
-    "unite": 4,
-    "konu": "Present Perfect",
-    "soru": "Choose the correct sentence with present perfect:",
-    "secenekler": {
-      "A": "I have saw that movie.",
-      "B": "I have seen that movie.",
-      "C": "I have see that movie.",
-      "D": "I have seeing that movie.",
-      "E": "I have been see that movie."
-    },
-    "dogruCevap": "B",
-    "aciklama": "Present Perfect: have/has + past participle (fiil-3). 'See' fiilinin 3. hali 'seen'dir: I have seen.",
-    "zorluk": "orta",
-    "etiketler": [
-      "present perfect"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "ING102-019",
-    "dersKodu": "İNG102U",
-    "dersAdi": "İngilizce II",
-    "unite": 4,
-    "konu": "Present Perfect",
-    "soru": "Fill in the blank: They _____ friends since childhood.",
-    "secenekler": {
-      "A": "are",
-      "B": "were",
-      "C": "have been",
-      "D": "had been",
-      "E": "will be"
-    },
-    "dogruCevap": "C",
-    "aciklama": "'Since' ile kullanımda Present Perfect (have/has + been) tercih edilir; çocukluktan bu yana devam eden durum.",
-    "zorluk": "orta",
-    "etiketler": [
-      "present perfect",
-      "since"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
-    "id": "ING102-020",
-    "dersKodu": "İNG102U",
-    "dersAdi": "İngilizce II",
-    "unite": 5,
-    "konu": "Modal Verbs",
-    "soru": "Which modal verb expresses obligation or necessity?",
-    "secenekler": {
-      "A": "Can",
-      "B": "May",
-      "C": "Might",
-      "D": "Must",
-      "E": "Would"
-    },
-    "dogruCevap": "D",
-    "aciklama": "'Must' zorunluluk ve gereklilik ifade eder: You must wear a seatbelt. Can = yapabilmek, May/Might = olabilmek.",
-    "zorluk": "orta",
-    "etiketler": [
-      "modal verbs",
-      "must"
-    ],
-    "soruTipi": "benzer_soru",
-    "kaynak": {
-      "tur": "Claude üretimi",
-      "yil": null,
-      "donem": null,
-      "sinav": null,
-      "sayfa": null,
-      "not": "Ders müfredatına dayalı pratik/benzer soru. Gerçek çıkmış sınav sorusu değildir."
-    },
-    "nedenDigerleriDegil": {},
-    "ogretimNotu": "",
-    "guvenDurumu": "kontrol_gerekli",
-    "kontrolEden": "Belirtilmedi"
-  },
-  {
     "id": "ISL118-001",
     "dersKodu": "İŞL118U",
     "dersAdi": "İşletme İletişimi",
@@ -4115,5 +2736,1167 @@
     "ogretimNotu": "",
     "guvenDurumu": "kontrol_gerekli",
     "kontrolEden": "Belirtilmedi"
+  },
+  {
+    "id": "ING102-001",
+    "dersKodu": "İNG102U",
+    "dersAdi": "İngilizce II",
+    "unite": 1,
+    "konu": "Dialogue / Agreement",
+    "soru": "A: I play soccer every weekend.\nB: -------\nWhich of the following completes the dialogue above?",
+    "secenekler": {
+      "A": "Me either.",
+      "B": "I don't either.",
+      "C": "I do too.",
+      "D": "I can too.",
+      "E": "I am too."
+    },
+    "dogruCevap": "C",
+    "aciklama": "'I do too.' kullanılır çünkü A olumlu bir cümle kurmuştur ('I play'). Olumlu bir cümleye olumlu katılmak için 'too' kullanılır. 'I do too.' = Ben de (oynuyorum). 'Me either' ve 'I don't either' olumsuz katılma ifadeleridir, burada yanlıştır.",
+    "nedenDigerleriDegil": "A ve B olumsuz katılma ifadesi; D ve E anlam olarak tutarsız.",
+    "ogretimNotu": "Agree with positive: too / so. Agree with negative: either / neither.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2019,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2019-ing102u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "ING102-002",
+    "dersKodu": "İNG102U",
+    "dersAdi": "İngilizce II",
+    "unite": 1,
+    "konu": "Verb To Be",
+    "soru": "A: Are you a student?\nB: Yes, -------.",
+    "secenekler": {
+      "A": "they are",
+      "B": "we are",
+      "C": "I am",
+      "D": "she is",
+      "E": "you are"
+    },
+    "dogruCevap": "C",
+    "aciklama": "Soru 'Are you...?' şeklinde sorulduğunda birinci tekil şahıs (I) için 'I am' ile cevap verilir. 'Yes, I am.' doğrudur. Diğer seçenekler farklı şahıs zamirlerine aittir.",
+    "nedenDigerleriDegil": "A (3.çoğul), B (1.çoğul), D (3.tekil dişil), E (2.tekil) — soru birinci tekil şahsa yönelik.",
+    "ogretimNotu": "Short answers: Yes, I am. / No, I am not.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2019,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2019-ing102u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "ING102-003",
+    "dersKodu": "İNG102U",
+    "dersAdi": "İngilizce II",
+    "unite": 1,
+    "konu": "Dialogue / Agreement (Negative)",
+    "soru": "A: I can't speak German.\nB: -------.",
+    "secenekler": {
+      "A": "Me too.",
+      "B": "I don't either.",
+      "C": "I'm not either.",
+      "D": "I can too.",
+      "E": "I can't either."
+    },
+    "dogruCevap": "E",
+    "aciklama": "A olumsuz bir cümle kurmuştur ('can't'). Olumsuz bir cümleye olumsuz katılmak için 'either' kullanılır ve yardımcı fiil korunur: 'I can't either.' (Ben de konuşamam). B yanlış çünkü 'don't' yerine 'can't' kullanılmalı.",
+    "nedenDigerleriDegil": "A ve D olumlu katılma; B yanlış yardımcı fiil (don't, can't değil); C 'not either' kullanımı 'can't' ile dil bilgisel uyumsuz.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2019,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2019-ing102u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "ING102-004",
+    "dersKodu": "İNG102U",
+    "dersAdi": "İngilizce II",
+    "unite": 2,
+    "konu": "Prepositions",
+    "soru": "Ercan is very good ------- learning languages. He can speak English, French, and Italian.",
+    "secenekler": {
+      "A": "on",
+      "B": "at",
+      "C": "for",
+      "D": "in",
+      "E": "with"
+    },
+    "dogruCevap": "B",
+    "aciklama": "'Good at' kalıp bir ifadedir: 'be good at something' (bir şeyde iyi olmak). Örnek: 'She is good at math.' Diğer edatlar bu kalıpta kullanılmaz.",
+    "nedenDigerleriDegil": "'Good on/for/in/with' + isim kalıbı İngilizce'de bu anlamda kullanılmaz.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2019,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2019-ing102u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "ING102-005",
+    "dersKodu": "İNG102U",
+    "dersAdi": "İngilizce II",
+    "unite": 2,
+    "konu": "Gerund (-ing form)",
+    "soru": "Sally enjoys ------- poetry.",
+    "secenekler": {
+      "A": "read",
+      "B": "reads",
+      "C": "in reading",
+      "D": "to read",
+      "E": "reading"
+    },
+    "dogruCevap": "E",
+    "aciklama": "'Enjoy' fiilinden sonra daima '-ing' (gerund) kullanılır: 'enjoy doing something'. Bu kalıpla to-infinitive kullanılmaz. 'Sally enjoys reading poetry.' doğrudur.",
+    "nedenDigerleriDegil": "A yalın mastar; B 3.tekil çekim; C edat+gerund kalıbı burada kullanılmaz; D to-infinitive enjoy sonrası yanlış.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2019,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2019-ing102u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "ING102-006",
+    "dersKodu": "İNG102U",
+    "dersAdi": "İngilizce II",
+    "unite": 2,
+    "konu": "Object Pronouns",
+    "soru": "Our neighbor Dan is an interesting man but I don't really like -------.",
+    "secenekler": {
+      "A": "her",
+      "B": "us",
+      "C": "it",
+      "D": "them",
+      "E": "him"
+    },
+    "dogruCevap": "E",
+    "aciklama": "'Dan' erkek bir isimdir, bu yüzden nesne zamiri 'him' kullanılmalıdır. 'I don't like him.' (Ondan hoşlanmıyorum.) A dişil (her), B birinci çoğul (us), C cansız/hayvan (it), D üçüncü çoğul (them).",
+    "nedenDigerleriDegil": "Zamir, önceki cümledeki ismin cinsiyetine ve sayısına uymalıdır.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2019,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2019-ing102u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "ING102-007",
+    "dersKodu": "İNG102U",
+    "dersAdi": "İngilizce II",
+    "unite": 2,
+    "konu": "Object Pronouns",
+    "soru": "My music teacher is a very old woman but I really like -------.",
+    "secenekler": {
+      "A": "us",
+      "B": "her",
+      "C": "them",
+      "D": "it",
+      "E": "him"
+    },
+    "dogruCevap": "B",
+    "aciklama": "'My music teacher' kadın bir kişidir ('woman'), bu yüzden nesne zamiri 'her' (onu/ona) kullanılmalıdır. 'I really like her.'",
+    "nedenDigerleriDegil": "A birinci çoğul; C üçüncü çoğul; D cansız; E erkek zamiri — hepsi yanlış cinsiyet veya sayı.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2019,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2019-ing102u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "ING102-008",
+    "dersKodu": "İNG102U",
+    "dersAdi": "İngilizce II",
+    "unite": 3,
+    "konu": "Short Answers / Do",
+    "soru": "A: Do you go swimming every week?\nB: Yes, I -------.",
+    "secenekler": {
+      "A": "have",
+      "B": "can",
+      "C": "am",
+      "D": "do",
+      "E": "would"
+    },
+    "dogruCevap": "D",
+    "aciklama": "'Do you...?' sorusuna 'Yes, I do.' ile cevap verilir. Kısa cevaplarda soru cümlesindeki yardımcı fiil tekrarlanır. 'Do' → 'I do.'",
+    "nedenDigerleriDegil": "Have/can/am/would farklı yardımcı fiiller; do-sorusuna do ile cevap verilir.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2019,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2019-ing102u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "ING102-009",
+    "dersKodu": "İNG102U",
+    "dersAdi": "İngilizce II",
+    "unite": 3,
+    "konu": "Conjunctions / When",
+    "soru": "My father never goes to the doctor and takes a pill ------- he feels ill.",
+    "secenekler": {
+      "A": "than",
+      "B": "and",
+      "C": "when",
+      "D": "why",
+      "E": "how"
+    },
+    "dogruCevap": "C",
+    "aciklama": "Cümlede zaman ilişkisi kurulmaktadır: hasta hissettiğinde (when he feels ill) hap alır. 'When' = -dığında/-ğında. 'Than' karşılaştırma, 'and' ekleme, 'why/how' anlam vermez.",
+    "nedenDigerleriDegil": "Than karşılaştırma; and bağlaç ama anlam yanlış; why/how soru sözcüğü burada bağlaç olamaz.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2019,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2019-ing102u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "ING102-010",
+    "dersKodu": "İNG102U",
+    "dersAdi": "İngilizce II",
+    "unite": 3,
+    "konu": "Present Continuous",
+    "soru": "Kate ------- a lot of fast food these days.",
+    "secenekler": {
+      "A": "eat",
+      "B": "are eating",
+      "C": "am eating",
+      "D": "would eat",
+      "E": "is eating"
+    },
+    "dogruCevap": "E",
+    "aciklama": "'These days' (bu günlerde) ifadesi geçici bir alışkanlık için Present Continuous (şimdiki sürekli) zamanı gerektirir. 'Kate' üçüncü tekil şahıs olduğundan 'is eating' doğrudur.",
+    "nedenDigerleriDegil": "A geniş zaman; B çoğul özne için; C birinci tekil için; D koşullu.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2019,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2019-ing102u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "ING102-011",
+    "dersKodu": "İNG102U",
+    "dersAdi": "İngilizce II",
+    "unite": 4,
+    "konu": "Vocabulary / Health",
+    "soru": "Please turn it off. I have a really bad ------- because of that loud music.",
+    "secenekler": {
+      "A": "sore throat",
+      "B": "stomachache",
+      "C": "sneeze",
+      "D": "headache",
+      "E": "fever"
+    },
+    "dogruCevap": "D",
+    "aciklama": "Yüksek sesli müzik başağrısına (headache) yol açar. 'I have a headache.' (Başım ağrıyor.) Boğaz ağrısı, mide ağrısı, hapşırık veya ateşin gürültülü müzikle doğrudan ilgisi yoktur.",
+    "nedenDigerleriDegil": "Sore throat boğaz için; stomachache mide için; sneeze hapşırık; fever yüksek ateş — hiçbiri gürültüyle ilgili değil.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2019,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2019-ing102u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "ING102-012",
+    "dersKodu": "İNG102U",
+    "dersAdi": "İngilizce II",
+    "unite": 4,
+    "konu": "Present Continuous / Future",
+    "soru": "We ------- our friends at 8:30 this evening.",
+    "secenekler": {
+      "A": "are meeting",
+      "B": "going to meet",
+      "C": "is meeting",
+      "D": "meet",
+      "E": "meeting"
+    },
+    "dogruCevap": "A",
+    "aciklama": "'This evening' gibi belirli bir gelecek zamanla yapılan planlar için Present Continuous kullanılabilir: 'We are meeting our friends at 8:30.' B seçeneği 'are going to meet' olsaydı kabul edilebilirdi fakat 'going to meet' yardımcı fiil eksik.",
+    "nedenDigerleriDegil": "C tekil özne için (is); D geniş zaman; E yardımcı fiil yok; B are eksik.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2019,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2019-ing102u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "ING102-013",
+    "dersKodu": "İNG102U",
+    "dersAdi": "İngilizce II",
+    "unite": 4,
+    "konu": "Be Going To",
+    "soru": "What ------- to buy for Dad's birthday?",
+    "secenekler": {
+      "A": "you go",
+      "B": "are you going",
+      "C": "are you",
+      "D": "you are going",
+      "E": "do you go"
+    },
+    "dogruCevap": "B",
+    "aciklama": "Gelecekteki bir niyet veya plan için 'be going to' yapısı kullanılır. Soru formunda: 'What are you going to buy?' Özne (you) yardımcı fiil (are) ile yer değiştirerek soru oluşturulur.",
+    "nedenDigerleriDegil": "A ve D özne-yardımcı fiil yer değiştirmemiş (soru formatı yanlış); C going to eksik; E do-soru yapısı niyet/plan için uygun değil.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2019,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2019-ing102u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "ING102-014",
+    "dersKodu": "İNG102U",
+    "dersAdi": "İngilizce II",
+    "unite": 5,
+    "konu": "Vocabulary / Months",
+    "soru": "------- is the fifth month of the year.",
+    "secenekler": {
+      "A": "July",
+      "B": "May",
+      "C": "June",
+      "D": "April",
+      "E": "August"
+    },
+    "dogruCevap": "B",
+    "aciklama": "Ayların sırası: Ocak(1), Şubat(2), Mart(3), Nisan(4), Mayıs(5)... Yılın beşinci ayı May (Mayıs)'dır. July=7, June=6, April=4, August=8.",
+    "nedenDigerleriDegil": "July 7., June 6., April 4., August 8. ay — hiçbiri 5. ay değil.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2019,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2019-ing102u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "ING102-015",
+    "dersKodu": "İNG102U",
+    "dersAdi": "İngilizce II",
+    "unite": 5,
+    "konu": "Vocabulary / School Subjects",
+    "soru": "Laura wants to be an actress so her favorite subject is -------.",
+    "secenekler": {
+      "A": "drama",
+      "B": "geometry",
+      "C": "history",
+      "D": "choir",
+      "E": "physics"
+    },
+    "dogruCevap": "A",
+    "aciklama": "Aktrist olmak isteyen birinin favori ders olarak Drama (Tiyatro/Dramatik Sanatlar) seçmesi mantıklıdır. Geometry, history, choir ve physics aktristlik mesleğiyle doğrudan ilgili değildir.",
+    "nedenDigerleriDegil": "Geometry matematik; history tarih; choir koro (müzik); physics fizik — aktristlikle alakası yok.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2019,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2019-ing102u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "ING102-016",
+    "dersKodu": "İNG102U",
+    "dersAdi": "İngilizce II",
+    "unite": 5,
+    "konu": "Past Simple / Was-Were",
+    "soru": "A: Where ------- you born?\nB: I was born in Çanakkale.",
+    "secenekler": {
+      "A": "do",
+      "B": "are",
+      "C": "have",
+      "D": "were",
+      "E": "did"
+    },
+    "dogruCevap": "D",
+    "aciklama": "'Born' geçmiş zaman ifadesi olduğundan Past Simple kullanılır. 'To be' fiilinin geçmişi 'was/were'dir. 'You' ile 'were' kullanılır: 'Where were you born?' B'nin cevabı da 'was born' ile bu zaman uyumunu doğruluyor.",
+    "nedenDigerleriDegil": "Do/are/have şimdiki zaman; did geçmiş soru için kullanılır ama be fiiliyle did kullanılmaz.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2019,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2019-ing102u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "ING102-017",
+    "dersKodu": "İNG102U",
+    "dersAdi": "İngilizce II",
+    "unite": 6,
+    "konu": "Numbers / Years",
+    "soru": "My father was born in (1924) -------.",
+    "secenekler": {
+      "A": "twenty-nine fourteen",
+      "B": "one-nine-two-four",
+      "C": "nineteen twelve four",
+      "D": "nineteen twenty-four",
+      "E": "ninety twenty"
+    },
+    "dogruCevap": "D",
+    "aciklama": "İngilizce'de yıllar genellikle ikiye bölünerek okunur: 19 | 24 → 'nineteen twenty-four'. 1924 = nineteen twenty-four. Diğer seçenekler yanlış okuma biçimleridir.",
+    "nedenDigerleriDegil": "A, B, C, E yılın okunuş kuralına uymayan yanlış formlardır.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2019,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2019-ing102u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "ING102-018",
+    "dersKodu": "İNG102U",
+    "dersAdi": "İngilizce II",
+    "unite": 6,
+    "konu": "There Is/Are",
+    "soru": "------- a drugstore in your neighborhood?",
+    "secenekler": {
+      "A": "Is there",
+      "B": "Is it",
+      "C": "Is here",
+      "D": "Is this",
+      "E": "Is that"
+    },
+    "dogruCevap": "A",
+    "aciklama": "Bir yerde bir şeyin var olup olmadığını sormak için 'Is there...?' / 'Are there...?' yapısı kullanılır. 'Is there a drugstore?' = Mahallenizde bir eczane var mı?",
+    "nedenDigerleriDegil": "'Is it/here/this/that' varlık sorgulamak için kullanılan doğru yapılar değildir.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2019,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2019-ing102u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "ING102-019",
+    "dersKodu": "İNG102U",
+    "dersAdi": "İngilizce II",
+    "unite": 6,
+    "konu": "There Is/Are (Negative)",
+    "soru": "------- any students in the garden because they are in the class.",
+    "secenekler": {
+      "A": "There is no",
+      "B": "There isn't",
+      "C": "There aren't",
+      "D": "There are no",
+      "E": "There are"
+    },
+    "dogruCevap": "C",
+    "aciklama": "'Students' çoğul olduğundan 'are' kullanılır. Olumsuz olduğundan 'aren't' doğrudur: 'There aren't any students.' D seçeneği (There are no) dilbilgisel olarak doğru ama 'any' ile kullanılamaz (any, olumsuz yardımcı fiille gelir).",
+    "nedenDigerleriDegil": "A ve B tekil yapı (is/isn't); D 'no' ile 'any' aynı cümlede kullanılmaz; E olumlu.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2019,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2019-ing102u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "ING102-020",
+    "dersKodu": "İNG102U",
+    "dersAdi": "İngilizce II",
+    "unite": 7,
+    "konu": "Modal Verbs / Can",
+    "soru": "A: ------- I help you?\nB: Yes, I'd like to get some theater tickets.",
+    "secenekler": {
+      "A": "Can",
+      "B": "Have",
+      "C": "Do",
+      "D": "Did",
+      "E": "Would"
+    },
+    "dogruCevap": "A",
+    "aciklama": "'Can I help you?' yardım teklif etmek için kullanılan standart bir ifadedir. Mağaza veya hizmet ortamında 'Can I help you?' (Size yardımcı olabilir miyim?) çok yaygındır.",
+    "nedenDigerleriDegil": "Have/Do/Did yardımcı fiil olarak burada anlamsız; Would = 'Would I help?' doğal değil.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2019,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2019-ing102u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "IKT104-001",
+    "dersKodu": "İKT104U",
+    "dersAdi": "İktisada Giriş II",
+    "unite": 1,
+    "konu": "İktisat Ekolleri",
+    "soru": "\"Bırakınız yapsınlar – Bırakınız geçsinler\" felsefesi aşağıdaki iktisat ekollerinden hangisi tarafından savunulmuştur?",
+    "secenekler": {
+      "A": "Keynesyen",
+      "B": "Klasik",
+      "C": "Sürrealist",
+      "D": "Merkantalist",
+      "E": "Marksist"
+    },
+    "dogruCevap": "B",
+    "aciklama": "\"Laissez-faire, laissez-passer\" (Bırakınız yapsınlar, bırakınız geçsinler) Klasik İktisat ekolünün temel ilkesidir. Serbest piyasanın kendi kendini düzenleyeceğini savunur; devlet müdahalesine karşı çıkarlar.",
+    "nedenDigerleriDegil": "Keynesyen devlet müdahalesini savunur; Merkantalist devlet düzenlemesini destekler; Marksist ise kapitalizme karşıdır; Sürrealist bir iktisat okulu değildir.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2018,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2018-ikt104u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "IKT104-002",
+    "dersKodu": "İKT104U",
+    "dersAdi": "İktisada Giriş II",
+    "unite": 2,
+    "konu": "Makroekonomik Denge",
+    "soru": "Bir ekonomide makroekonomik dengenin sağlanması için aşağıdakilerden hangisinin birbirine eşit olması gerekir?",
+    "secenekler": {
+      "A": "Tüketim ve yatırım",
+      "B": "Gelir ve ithalat",
+      "C": "Tüketim ve tasarruf",
+      "D": "Gelir ve harcama",
+      "E": "Gelir ve yatırım"
+    },
+    "dogruCevap": "D",
+    "aciklama": "Makroekonomik denge Y = C + I + G + NX formülüyle ifade edilir. Kapalı ekonomide gelir (Y) ile toplam harcama (C+I+G) eşit olduğunda denge sağlanır. Yani Gelir = Harcama eşitliği makroekonomik dengenin temelidir.",
+    "nedenDigerleriDegil": "Tüketim ≠ yatırım; gelir ≠ ithalat; tüketim ≠ tasarruf (bunlar gelirin kullanımı); gelir ≠ sadece yatırım.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2018,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2018-ikt104u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "IKT104-003",
+    "dersKodu": "İKT104U",
+    "dersAdi": "İktisada Giriş II",
+    "unite": 3,
+    "konu": "Fiyat İstikrarı",
+    "soru": "Bir ekonomide fiyatlar genel düzeyinin aşağı ya da yukarı yönde hareket etme eğiliminin olmaması durumuna ne ad verilir?",
+    "secenekler": {
+      "A": "Deflasyon",
+      "B": "Enflasyon",
+      "C": "Senyoraj",
+      "D": "Fiyat istikrarı",
+      "E": "Devalüasyon"
+    },
+    "dogruCevap": "D",
+    "aciklama": "Fiyat istikrarı; fiyatlar genel düzeyinin ne artmadığı ne de azalmadığı, yani sabit kaldığı durumu ifade eder. Merkez bankalarının temel hedeflerinden biridir. Enflasyon fiyatların artışı, deflasyon fiyatların düşüşüdür.",
+    "nedenDigerleriDegil": "Deflasyon fiyatların düşmesi; enflasyon fiyatların artması; senyoraj para basma geliri; devalüasyon paranın değer kaybetmesi.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2018,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2018-ikt104u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "IKT104-004",
+    "dersKodu": "İKT104U",
+    "dersAdi": "İktisada Giriş II",
+    "unite": 3,
+    "konu": "GSYH",
+    "soru": "Bir ekonomide, belli bir dönemde üretilen tamamlanmış mal ve hizmetlerin parasal değerlerinin toplamına ne ad verilir?",
+    "secenekler": {
+      "A": "Arbitraj oranı",
+      "B": "Deflasyon",
+      "C": "Gayri safi yurtiçi hasıla",
+      "D": "Tüketici fiyatları endeksi",
+      "E": "Stagflasyon"
+    },
+    "dogruCevap": "C",
+    "aciklama": "Gayri Safi Yurtiçi Hasıla (GSYH/GDP), bir ülkede belirli bir dönemde (genellikle 1 yıl) üretilen tüm nihai mal ve hizmetlerin piyasa değerlerinin toplamıdır. Ülkelerin ekonomik büyüklüğünü ölçmek için kullanılan temel göstergedir.",
+    "nedenDigerleriDegil": "Arbitraj fiyat farkından kazanç; deflasyon fiyat düşüşü; TÜFE tüketici sepetinin fiyatını ölçer; stagflasyon aynı anda enflasyon+durgunluk.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2018,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2018-ikt104u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "IKT104-005",
+    "dersKodu": "İKT104U",
+    "dersAdi": "İktisada Giriş II",
+    "unite": 4,
+    "konu": "İşsizlik Türleri",
+    "soru": "İş gücüne yeni katılanları ve işinden çıkarılanları ya da yeni iş arayanları kapsayan ve geçici işsizlik olarak da adlandırılan işsizlik türü aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Yapısal işsizlik",
+      "B": "Gayri iradi işsizlik",
+      "C": "Mevsimlik işsizlik",
+      "D": "Konjonktürel işsizlik",
+      "E": "Friksiyonel işsizlik"
+    },
+    "dogruCevap": "E",
+    "aciklama": "Friksiyonel (arızi) işsizlik; iş arayanların uygun iş bulana kadar geçirdikleri geçici süreçtir. İş değiştirme, yeni mezun olma veya yeni bir şehre taşınma gibi durumları kapsar. Doğal işsizlik oranının bir parçasıdır.",
+    "nedenDigerleriDegil": "Yapısal: ekonomik yapı değişimi; gayri iradi: çalışmak isteyip bulamayanlar; mevsimlik: mevsime bağlı; konjonktürel: ekonomik daralma dönemindeki işsizlik.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2018,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2018-ikt104u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "IKT104-006",
+    "dersKodu": "İKT104U",
+    "dersAdi": "İktisada Giriş II",
+    "unite": 5,
+    "konu": "Döviz Kuru",
+    "soru": "Bir ulusal paranın bir biriminin başka bir ulusal para cinsinden değerine ne ad verilir?",
+    "secenekler": {
+      "A": "Döviz arbitrajı",
+      "B": "Nominal döviz kuru",
+      "C": "Satın alma gücü paritesi",
+      "D": "Yurtdışı fiyat endeksi",
+      "E": "Yurtiçi fiyat endeksi"
+    },
+    "dogruCevap": "B",
+    "aciklama": "Nominal döviz kuru, bir ülkenin para biriminin başka bir ülkenin para birimi cinsinden ifade edilen değeridir. Örneğin 1 Dolar = 32 Türk Lirası nominal döviz kurudur. Enflasyon etkisi arındırılmamıştır.",
+    "nedenDigerleriDegil": "Döviz arbitrajı farklı piyasalardaki fiyat farklarından yararlanmak; SGP fiyat düzeylerini karşılaştırır; endeksler fiyat ölçümü için.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2018,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2018-ikt104u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "IKT104-007",
+    "dersKodu": "İKT104U",
+    "dersAdi": "İktisada Giriş II",
+    "unite": 3,
+    "kono": "GSYH / GSMH",
+    "soru": "Gayri safi yurtiçi hasılaya aşağıdakilerden hangisi eklendiğinde, gayri safi milli hasılaya ulaşılır?",
+    "secenekler": {
+      "A": "İstihdam oranı",
+      "B": "Amortismanlar",
+      "C": "Sübvansiyonlar",
+      "D": "Enflasyon oranı",
+      "E": "Net faktör gelirleri"
+    },
+    "dogruCevap": "E",
+    "aciklama": "GSMH = GSYH + Net Faktör Gelirleri formülüyle hesaplanır. Net faktör gelirleri; yurtdışında çalışan vatandaşların gönderdiği gelirlerden, yabancıların ülkede elde ettiği gelirlerin çıkarılmasıyla bulunur.",
+    "nedenDigerleriDegil": "Amortismanlar GSYİH→NSYİH geçişinde; sübvansiyonlar transfer ödeme; enflasyon ve istihdam oranları ulusal gelir hesabıyla doğrudan ilgili değil.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2018,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2018-ikt104u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "IKT104-008",
+    "dersKodu": "İKT104U",
+    "dersAdi": "İktisada Giriş II",
+    "unite": 2,
+    "konu": "Mal Türleri",
+    "soru": "Bir başka mal ya da hizmetin üretiminde kullanılan mallara ne ad verilir?",
+    "secenekler": {
+      "A": "Ara malı",
+      "B": "Dayanıksız mal",
+      "C": "Serbest mal",
+      "D": "Nihai mal",
+      "E": "Tamamlayıcı mal"
+    },
+    "dogruCevap": "A",
+    "aciklama": "Ara mallar (intermediate goods), başka bir mal veya hizmetin üretiminde girdi olarak kullanılan mallardır. Örneğin ekmek yapmak için kullanılan un bir ara maldır. GSYH hesaplanırken mükerrer sayımı önlemek için ara mallar dahil edilmez, sadece nihai mallar sayılır.",
+    "nedenDigerleriDegil": "Dayanıksız: kısa sürede tüketilen; serbest: bedava (su, hava); nihai: son tüketiciye ulaşan; tamamlayıcı: birlikte kullanılan (çay+şeker).",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2018,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2018-ikt104u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "IKT104-009",
+    "dersKodu": "İKT104U",
+    "dersAdi": "İktisada Giriş II",
+    "unite": 3,
+    "konu": "GSYH Hesaplama",
+    "soru": "Aşağıdakilerden hangisi GSYH hesaplanırken dikkate alınamayan unsurlardan biri değildir?",
+    "secenekler": {
+      "A": "Yasa dışı ekonomik aktiviteler",
+      "B": "Piyasa dışı ekonomik aktiviteler",
+      "C": "Tamamlanmış mal ve hizmetler",
+      "D": "Mal ve hizmetlerin üretimi ve tüketimi sırasında çevreye verilen zarar",
+      "E": "Kayıt dışı ekonomik aktiviteler"
+    },
+    "dogruCevap": "C",
+    "aciklama": "Soru 'dikkate alınamayan unsurlardan biri değildir' şeklinde sorulmaktadır; yani GSYH'ye dahil EDİLEN unsuru sormaktadır. Tamamlanmış (nihai) mal ve hizmetler GSYH hesaplamasına dahil edilir. Diğerleri kayıt dışı veya piyasa dışı olduğundan dahil edilemez.",
+    "nedenDigerleriDegil": "Yasa dışı, piyasa dışı, kayıt dışı aktiviteler ve dışsallıklar (çevre zararı) resmi GSYH hesabına alınmaz.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2018,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2018-ikt104u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "IKT104-010",
+    "dersKodu": "İKT104U",
+    "dersAdi": "İktisada Giriş II",
+    "unite": 6,
+    "konu": "Uluslararası Kuruluşlar",
+    "soru": "İnsani Gelişme Endeksi, aşağıdakilerden hangisi tarafından geliştirilmiştir?",
+    "secenekler": {
+      "A": "Dünya Ticaret Örgütü",
+      "B": "Birleşmiş Milletler Kalkınma Programı",
+      "C": "Ekonomik İşbirliği Teşkilatı",
+      "D": "Uluslararası İş Örgütü",
+      "E": "Dünya Bankası"
+    },
+    "dogruCevap": "B",
+    "aciklama": "İnsani Gelişme Endeksi (HDI - Human Development Index), BM Kalkınma Programı (UNDP) tarafından geliştirilmiştir (1990). Endeks; eğitim, sağlık ve gelir göstergelerini birleştirerek ülkelerin kalkınma düzeyini ölçer.",
+    "nedenDigerleriDegil": "DTÖ ticaret; EİT (OECD) ekonomik işbirliği; ILO çalışma standartları; Dünya Bankası borç ve kalkınma finansmanı — hiçbiri HDI'yi geliştirmedi.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2018,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2018-ikt104u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "IKT104-011",
+    "dersKodu": "İKT104U",
+    "dersAdi": "İktisada Giriş II",
+    "unite": 4,
+    "konu": "Maliye",
+    "soru": "Devletin topladığı vergilerden, hanehalklarına transfer ödemeleri çıkarıldıktan sonra kalan kısma ne ad verilir?",
+    "secenekler": {
+      "A": "Kamu geliri",
+      "B": "Kamu tasarrufu",
+      "C": "Harcanabilir gelir",
+      "D": "Net vergi hasılatı",
+      "E": "Kamu yatırımı"
+    },
+    "dogruCevap": "D",
+    "aciklama": "Net vergi hasılatı = Vergi gelirleri − Transfer ödemeleri. Devlet vatandaşlardan topladığı vergilerden sosyal yardım, emekli maaşı gibi transferleri düştükten sonra kalan net kaynağa net vergi hasılatı denir.",
+    "nedenDigerleriDegil": "Kamu geliri tüm kamu gelirlerini; kamu tasarrufu gelir-harcama farkını; harcanabilir gelir hane halkı için kullanılır; kamu yatırımı devletin yaptığı yatırım harcaması.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2018,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2018-ikt104u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "IKT104-012",
+    "dersKodu": "İKT104U",
+    "dersAdi": "İktisada Giriş II",
+    "unite": 5,
+    "konu": "Faiz Oranları",
+    "soru": "Nominal faiz oranından, mal ve hizmetlerin fiyatlarındaki artış oranının çıkarılmasıyla elde edilen faiz oranına ne ad verilir?",
+    "secenekler": {
+      "A": "Reel faiz oranı",
+      "B": "Brüt faiz oranı",
+      "C": "Net değer oranı",
+      "D": "Arbitraj oranı",
+      "E": "Senyoraj oranı"
+    },
+    "dogruCevap": "A",
+    "aciklama": "Reel faiz oranı = Nominal faiz oranı − Enflasyon oranı (Fisher Denklemi). Reel faiz; paranın satın alma gücündeki gerçek artışı gösterir. Örneğin nominal faiz %20, enflasyon %15 ise reel faiz %5'tir.",
+    "nedenDigerleriDegil": "Brüt faiz vergi öncesi; net değer varlık-borç farkı; arbitraj farklı piyasalardan kazanç; senyoraj para basımından elde edilen gelir.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2018,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2018-ikt104u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "IKT104-013",
+    "dersKodu": "İKT104U",
+    "dersAdi": "İktisada Giriş II",
+    "unite": 2,
+    "konu": "Temel Kavramlar",
+    "soru": "\"Tasarruf\" kavramının tanımı aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Gelirin gayrimenkul kıymetlere aktarılan kısmıdır.",
+      "B": "Gelirin yatırımlara yöneltilen kısmıdır.",
+      "C": "Gelirin menkul kıymetlere aktarılan kısmıdır.",
+      "D": "Gelirin reel varlıklara aktarılan kısmıdır.",
+      "E": "Toplam gelirin devlet ve hanehalkları tarafından harcanmayan kısmıdır."
+    },
+    "dogruCevap": "E",
+    "aciklama": "Tasarruf; elde edilen gelirin tüketilmeyerek geleceğe aktarılan kısmıdır. Ekonomik tanımıyla: Tasarruf = Gelir − Tüketim. Bu nedenle toplam gelirin harcanmayan kısmıdır. Tasarruf mutlaka yatırıma veya belirli bir varlığa yöneltilmek zorunda değildir.",
+    "nedenDigerleriDegil": "A, B, C, D seçenekleri tasarrufun kullanım biçimlerini (yatırım araçlarını) tanımlar; tasarrufun kendisini değil.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2018,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2018-ikt104u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "IKT104-014",
+    "dersKodu": "İKT104U",
+    "dersAdi": "İktisada Giriş II",
+    "unite": 1,
+    "konu": "Temel Kavramlar",
+    "soru": "\"Ödünleşim\" kavramının tanımı aşağıdakilerden hangisidir?",
+    "secenekler": {
+      "A": "Üretilen son birimin maliyetinin sıfırlanmasıdır.",
+      "B": "Bir şeyden daha fazla elde etmek için başka bir şeyden vazgeçme zorunluluğudur.",
+      "C": "Borçların ertelenmesidir.",
+      "D": "İktisadi aktörlerin uzlaşmasıdır.",
+      "E": "Vergi borcunun kapatılmasıdır."
+    },
+    "dogruCevap": "B",
+    "aciklama": "Ödünleşim (trade-off); kıt kaynaklarla yapılan seçimlerde bir şeyi elde etmek için başka bir şeyden vazgeçmek zorunda kalmayı ifade eder. Örneğin daha fazla dinlenme zamanı istiyorsanız çalışma saatinizden, dolayısıyla gelirinizden vazgeçersiniz.",
+    "nedenDigerleriDegil": "A marjinal maliyet; C borç yönetimi; D müzakere; E vergi ile ilgili — hiçbiri ödünleşim kavramı değil.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2018,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2018-ikt104u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "IKT104-015",
+    "dersKodu": "İKT104U",
+    "dersAdi": "İktisada Giriş II",
+    "unite": 2,
+    "konu": "Yatırım",
+    "soru": "Sermaye mallarının maliyeti + finansal sermayenin maliyeti aşağıdakilerden hangisini ifade eder?",
+    "secenekler": {
+      "A": "Vergi maliyeti",
+      "B": "Senyoraj maliyeti",
+      "C": "Kredi maliyeti",
+      "D": "Yatırımın maliyeti",
+      "E": "Arbitraj maliyeti"
+    },
+    "dogruCevap": "D",
+    "aciklama": "Yatırımın toplam maliyeti; fiziksel sermaye mallarının (makine, ekipman) maliyeti ile bu yatırımı finanse etmek için kullanılan finansal sermayenin (kredi faizi, öz kaynak fırsat maliyeti) toplamından oluşur.",
+    "nedenDigerleriDegil": "Vergi maliyeti devlete ödenen vergi; senyoraj para basımı geliri; kredi maliyeti sadece borçlanma bedeli; arbitraj farklı piyasalar arası kazanç.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2018,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2018-ikt104u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "IKT104-016",
+    "dersKodu": "İKT104U",
+    "dersAdi": "İktisada Giriş II",
+    "unite": 2,
+    "konu": "Üretim Faktörleri",
+    "soru": "Firmanın istihdam ettiği son işçinin, firmanın toplam maliyetinde yaptığı değişime ne ad verilir?",
+    "secenekler": {
+      "A": "Marjinal sabit maliyet",
+      "B": "Marjinal ürün hasılası",
+      "C": "Ortalama faktör maliyeti",
+      "D": "Toplam ürün maliyeti",
+      "E": "Marjinal faktör maliyeti"
+    },
+    "dogruCevap": "E",
+    "aciklama": "Marjinal faktör maliyeti (MFC); bir birim daha fazla üretim faktörü (bu durumda işçi) istihdam etmenin toplam maliyete yaptığı ek değişimdir. Bir işçi daha alındığında toplam maliyet ne kadar artar? Cevap: Marjinal faktör maliyeti.",
+    "nedenDigerleriDegil": "Marjinal sabit maliyet kavramı yoktur (sabit maliyetler marjinal değildir); marjinal ürün hasılası çıktıdaki değişim; ortalama faktör maliyeti toplam/birim.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2018,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2018-ikt104u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "IKT104-017",
+    "dersKodu": "İKT104U",
+    "dersAdi": "İktisada Giriş II",
+    "unite": 2,
+    "konu": "Üretim / Verimlilik",
+    "soru": "Üretimin (hasılanın), bunu yaratan üretim faktörlerine oranına ne ad verilir?",
+    "secenekler": {
+      "A": "Faktör teknolojisi",
+      "B": "Faktör büyüme oranı",
+      "C": "Verimlilik",
+      "D": "Üretim teknolojisi",
+      "E": "Faktör oranı"
+    },
+    "dogruCevap": "C",
+    "aciklama": "Verimlilik (productivity); birim üretim faktörü başına elde edilen çıktı miktarıdır. Formül: Verimlilik = Çıktı / Girdi. Emek verimliliği, sermaye verimliliği gibi alt türleri vardır. Yüksek verimlilik ekonomik büyümenin temelidir.",
+    "nedenDigerleriDegil": "Faktör teknolojisi ve üretim teknolojisi teknolojik bilgiyle ilgili; faktör büyüme oranı büyüme hızı; faktör oranı girdi bileşimi.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2018,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2018-ikt104u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "IKT104-018",
+    "dersKodu": "İKT104U",
+    "dersAdi": "İktisada Giriş II",
+    "unite": 2,
+    "konu": "Marjinal Analiz",
+    "soru": "Üretime katılan son işçinin, işletmenin toplam hasılasında meydana getirdiği değişikliğe ne ad verilir?",
+    "secenekler": {
+      "A": "Optimum hasıla katsayısı",
+      "B": "Marjinal faktör maliyeti",
+      "C": "Marjinal ürün hasılası",
+      "D": "Optimum emek değeri",
+      "E": "Marjinal tüketim eğilimi"
+    },
+    "dogruCevap": "C",
+    "aciklama": "Marjinal ürün hasılası (MPL - Marginal Product of Labour); işgücüne bir birim daha eklenmesinin toplam üretimi (çıktıyı) ne kadar artırdığını gösterir. MPL = ΔQ / ΔL. Azalan verimler yasası gereği ek işçiler giderek daha az marjinal ürün hasılası getirir.",
+    "nedenDigerleriDegil": "Marjinal faktör maliyeti maliyetteki değişim; marjinal tüketim eğilimi gelirdeki artışın tüketime giden payı; diğerleri gerçek kavram değil.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2018,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2018-ikt104u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "IKT104-019",
+    "dersKodu": "İKT104U",
+    "dersAdi": "İktisada Giriş II",
+    "unite": 6,
+    "konu": "Büyüme",
+    "soru": "Bir ülkede yıllık büyüme oranı yüzde 10 ise bu ülkede kişi başına gelir kaç yıl sonra iki katına çıkar?",
+    "secenekler": {
+      "A": "7",
+      "B": "8",
+      "C": "9",
+      "D": "10",
+      "E": "12"
+    },
+    "dogruCevap": "A",
+    "aciklama": "70 Kuralı (Rule of 70): Bir değerin iki katına çıkması için gereken süre ≈ 70 / büyüme oranı. %10 büyüme için: 70 / 10 = 7 yıl. Bu kural bileşik büyümenin hızını kolayca hesaplamak için kullanılır.",
+    "nedenDigerleriDegil": "8, 9, 10, 12 yıl 70 kuralına uymayan yanlış değerlerdir.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2018,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2018-ikt104u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
+  },
+  {
+    "id": "IKT104-020",
+    "dersKodu": "İKT104U",
+    "dersAdi": "İktisada Giriş II",
+    "unite": 4,
+    "konu": "İşsizlik",
+    "soru": "Doğal işsizlik oranı ile cari işsizlik oranı arasındaki fark nedeniyle potansiyel hasıladaki kaybı ölçen katsayıya ne ad verilir?",
+    "secenekler": {
+      "A": "Okun Yasası",
+      "B": "Leontief Paradoksu",
+      "C": "Say Yasası",
+      "D": "Gresham Yasası",
+      "E": "Pareto Optimumu"
+    },
+    "dogruCevap": "A",
+    "aciklama": "Okun Yasası (Okun's Law); işsizlik oranındaki her 1 puanlık artışın GSYH'yi yaklaşık 2 puan azalttığını belirtir. Yani cari işsizlik doğal oranın üzerinde olduğunda, ekonomi potansiyelinin altında üretim yapar.",
+    "nedenDigerleriDegil": "Leontief Paradoksu dış ticaret teorisi; Say Yasası 'her arz kendi talebini yaratır'; Gresham 'kötü para iyi parayı kovar'; Pareto optimallik kavramı.",
+    "soruTipi": "çıkmış_soru",
+    "kaynak": {
+      "tur": "çıkmış_soru",
+      "yil": 2018,
+      "donem": "güz",
+      "sinav": "arasinav",
+      "sayfa": null,
+      "not": "aof.tc/test/2018-ikt104u"
+    },
+    "guvenDurumu": "kontrol_edildi",
+    "kontrolEden": "aof.tc-gorsel"
   }
 ]
