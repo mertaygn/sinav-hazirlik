@@ -1,0 +1,298 @@
+const fs = require('fs');
+const path = require('path');
+const filePath = path.join(__dirname, '../src/data/questions.json');
+const sorular = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+
+const k19as = { tur: 'çıkmış_soru', yil: 2019, donem: 'güz', sinav: 'arasinav', sayfa: null, not: 'aof.tc/cs/isl132u/2019/as' };
+const k19ds = { tur: 'çıkmış_soru', yil: 2019, donem: 'güz', sinav: 'dönemsonu', sayfa: null, not: 'aof.tc/cs/isl132u/2019/ds' };
+
+const yeni = [
+  // ── 2019 ARA SINAV ──────────────────────────────────────────────
+  { id:'ISL132-021', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:2, konu:'Bilanço Eşitliği',
+    soru:'Bilanço eşitliği ile ilgili aşağıdaki ifadelerden hangileri yanlıştır?\nI. Eşitliğin her iki tarafı birlikte artar.\nII. Eşitliğin bir tarafı artarken diğer tarafı azalır.\nIII. Eşitliğin her iki tarafı birlikte azalır.\nIV. Varlıkların kendi içindeki değişimi eşitliği bozmaz.',
+    secenekler:{A:'Yalnız I',B:'Yalnız II',C:'I ve III',D:'I ve IV',E:'II ve IV'},
+    dogruCevap:'B', aciklama:'Bilanço eşitliğinde Aktif = Pasif denklemi her zaman korunur. İki tarafın birden artması (I) veya azalması (III) ile varlık içi yer değişimi (IV) eşitliği bozmaz. Ancak "bir taraf artarken diğeri azalır" (II) ifadesi yanlıştır; böyle bir işlem bilanço eşitliğini bozar.',
+    nedenDigerleriDegil:'I, III ve IV doğru ifadelerdir; yalnızca II yanlıştır.',
+    soruTipi:'çıkmış_soru', kaynak:k19as, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-022', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:5, konu:'Demirbaş Satışı / Kâr-Zarar',
+    soru:'Maliyeti 50.000 TL, birikmiş amortismanı 25.000 TL olan demirbaşlar, KDV hariç 30.000 TL\'ye satılmıştır. Bu bilgilere göre satıştan elde edilen kâr veya zarar kaç TL\'dir?',
+    secenekler:{A:'25.000 zarar',B:'20.000 zarar',C:'5.000 kâr',D:'20.000 kâr',E:'25.000 kâr'},
+    dogruCevap:'C', aciklama:'Net defter değeri = Maliyet − Birikmiş Amortisman = 50.000 − 25.000 = 25.000 TL. Satış fiyatı 30.000 TL > Net defter değeri 25.000 TL. Kâr = 30.000 − 25.000 = 5.000 TL kâr.',
+    nedenDigerleriDegil:'Zarar hesaplamaları yanlış; 25.000 kâr birikmiş amortismanı görmezden gelir.',
+    soruTipi:'çıkmış_soru', kaynak:k19as, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-023', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:5, konu:'Kıst Amortisman',
+    soru:'2 Temmuz\'da, 120.000 TL bedelle aktifleştirilen bir otomobil için kıst amortisman uygulanmaktadır. Amortisman süresi 5 yıldır ve normal amortisman yöntemi uygulanmaktadır. Bu bilgilere göre ilk yıl ayrılacak amortisman tutarı kaç TL\'dir?',
+    secenekler:{A:'8.000',B:'12.000',C:'14.000',D:'20.000',E:'24.000'},
+    dogruCevap:'B', aciklama:'Yıllık amortisman = 120.000 / 5 = 24.000 TL. Temmuz\'da alındığından kıst süre: Temmuz–Aralık = 6 ay. Kıst amortisman = 24.000 × 6/12 = 12.000 TL.',
+    nedenDigerleriDegil:'24.000 tam yıl amortismanı; 8.000 yanlış hesaplama; diğerleri kıst uygulanmamış veya hatalı.',
+    soruTipi:'çıkmış_soru', kaynak:k19as, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-024', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:3, konu:'Hesap Grupları',
+    soru:'Aşağıdaki hesaplardan hangisi Ticari Alacaklar hesap grubundadır?',
+    secenekler:{A:'Alıcılar',B:'Ortaklardan Alacaklar',C:'Alınan Çekler',D:'Verilen Çekler',E:'İştiraklerden Alacaklar'},
+    dogruCevap:'A', aciklama:'Ticari Alacaklar hesap grubu (12x); Alıcılar (120), Alınan Çekler (121) bu grubun en temel hesaplarıdır. Soru tekil sorduğundan A (Alıcılar) doğrudur. Ortaklardan Alacaklar ve İştiraklerden Alacaklar diğer alacaklar grubundadır.',
+    nedenDigerleriDegil:'Ortaklardan/İştiraklerden Alacaklar başka hesap grubunda; Verilen Çekler nakit ve benzeri grubunda eksi hesaptır.',
+    soruTipi:'çıkmış_soru', kaynak:k19as, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-025', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:4, konu:'Maddi Duran Varlıklar',
+    soru:'Aşağıdaki hesaplardan hangisi maddi duran varlıklar kapsamındadır?',
+    secenekler:{A:'Kuruluş ve Örgütlenme Giderleri',B:'İştirakler',C:'Bağlı Ortaklıklar',D:'Haklar',E:'Taşıtlar'},
+    dogruCevap:'E', aciklama:'Maddi Duran Varlıklar (25x) grubu fiziksel varlıkları kapsar: Arazi, Arsa, Binalar, Tesis Makine Cihazlar, Taşıtlar, Demirbaşlar. Taşıtlar (254) bu grubun bir hesabıdır.',
+    nedenDigerleriDegil:'Kuruluş giderleri ve Haklar maddi olmayan duran varlık; İştirakler ve Bağlı Ortaklıklar mali duran varlık grubundadır.',
+    soruTipi:'çıkmış_soru', kaynak:k19as, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-026', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:1, konu:'Muhasebenin Amacı',
+    soru:'Muhasebenin temel amacı aşağıdakilerden hangisidir?',
+    secenekler:{A:'Finansal tabloları düzenlemek',B:'İlgili taraflara doğru, güvenilir ve yararlı bilgi sağlamak',C:'İşletmenin ödeyeceği vergiyi saptamak',D:'İşletmenin girdi ve çıktılarını kaydetmek',E:'İşletmenin kârını hesaplamak'},
+    dogruCevap:'B', aciklama:'Muhasebenin temel amacı; işletme ile ilgili taraflara (yöneticiler, yatırımcılar, alacaklılar, devlet) doğru, güvenilir ve kullanışlı finansal bilgi sağlamaktır. Finansal tablo düzenleme, vergi hesaplama gibi işlemler bu amaca hizmet eden araçlardır.',
+    nedenDigerleriDegil:'A, C, D, E muhasebenin amaçlarına ulaşmak için kullanılan araçlardır; muhasebenin kendisinin temel amacı değildir.',
+    soruTipi:'çıkmış_soru', kaynak:k19as, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-027', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:1, konu:'Muhasebenin İşlevleri',
+    soru:'Mali nitelikteki olayların büyük deftere kaydı muhasebenin hangi işlevi kapsamında gerçekleştirilir?',
+    secenekler:{A:'Analiz ve yorum',B:'Kaydetme',C:'Raporlama',D:'Sınıflama',E:'Özetleme'},
+    dogruCevap:'B', aciklama:'Muhasebede kaydetme işlevi; mali nitelikteki olayların yevmiye defterine, oradan büyük deftere aktarılmasını kapsar. Büyük deftere kayıt doğrudan kaydetme işlevinin bir parçasıdır.',
+    nedenDigerleriDegil:'Analiz-yorum ve raporlama sonraki aşamalar; sınıflama ve özetleme farklı alt işlevler.',
+    soruTipi:'çıkmış_soru', kaynak:k19as, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-028', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:3, konu:'Çek Ciro / Yevmiye',
+    soru:'İşletme, portföyünde bulunan bir çeki satıcılara ciro ettiğinde yapılacak yevmiye kaydında aşağıdakilerden hangisi doğrudur?',
+    secenekler:{A:'Bankalar hesabına alacak kaydı yapılır.',B:'Verilen Çekler hesabına alacak kaydı yapılır.',C:'Alınan Çekler hesabına alacak kaydı yapılır.',D:'Alıcılar hesabına alacak kaydı yapılır.',E:'Satıcılar hesabına alacak kaydı yapılır.'},
+    dogruCevap:'C', aciklama:'Portföydeki çekin satıcıya ciro edilmesi = Alınan Çekler azalır. Kayıt: Satıcılar (Borç) / Alınan Çekler (Alacak). Alınan Çekler hesabı alacaklandırılır çünkü çek elden çıkmıştır.',
+    nedenDigerleriDegil:'Bankalar ve Verilen Çekler nakit işlemlerinde; Alıcılar alacaklarda kullanılır. Satıcılar borçlandırılır (azalır), alacaklandırılmaz.',
+    soruTipi:'çıkmış_soru', kaynak:k19as, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-029', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:2, konu:'Hesap Türleri',
+    soru:'Aşağıdaki hesap türleri ve ilgili tanımların doğru eşleştirilmesi hangisidir?\n1. Ana hesap — K. Varlık-kaynak yapısında değişim yaratmayan bilgileri izlemek için kullanılır\n2. Düzenleyici hesap — L. Asli hesapların bilançoda net değerleriyle gösterilmesini sağlar\n3. Nazım hesap — M. Benzer işlemleri toplu gösteren, kalanları bilanço/gelir tablosu oluşturan hesaplar',
+    secenekler:{A:'1-M, 2-L, 3-K',B:'1-M, 2-K, 3-L',C:'1-K, 2-L, 3-M',D:'1-L, 2-K, 3-M',E:'1-K, 2-M, 3-L'},
+    dogruCevap:'A', aciklama:'Ana hesap (M): Tekdüzen hesap planında benzer işlemleri bir arada gösteren, bakiyeleri bilanço ve gelir tablosunu oluşturan hesaplardır. Düzenleyici hesap (L): Ana hesapların net değerini göstermek için kullanılır (örn. birikmiş amortisman). Nazım hesap (K): Varlık-kaynak yapısını değiştirmeyen, hatırlatma amaçlı hesaplardır.',
+    nedenDigerleriDegil:'K nazım hesabın tanımı; L düzenleyici; M ana hesabın tanımı — diğer eşleşmeler yanlıştır.',
+    soruTipi:'çıkmış_soru', kaynak:k19as, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-030', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:2, konu:'Hesapların İşleyişi',
+    soru:'Hesapların işleyişi ile ilgili aşağıdaki ifadelerden hangileri doğrudur?\nI. Varlık hesaplarındaki artışlar hesabın borç tarafına kaydedilir.\nII. Gider hesaplarındaki artışlar hesabın alacak tarafına kaydedilir.\nIII. Kaynak hesaplarındaki artışlar hesabın alacak tarafına kaydedilir.\nIV. Gelir hesaplarındaki artışlar hesabın borç tarafına kaydedilir.',
+    secenekler:{A:'I ve II',B:'I ve III',C:'II ve IV',D:'I, II ve III',E:'II, III ve IV'},
+    dogruCevap:'B', aciklama:'I. Doğru: Varlık artışı → Borç tarafına. III. Doğru: Kaynak artışı → Alacak tarafına. II. Yanlış: Gider artışı → Borç tarafına (alacak değil). IV. Yanlış: Gelir artışı → Alacak tarafına (borç değil).',
+    nedenDigerleriDegil:'II ve IV zıt yönlerde yanlıştır; yalnızca I ve III doğru ifadelerdir.',
+    soruTipi:'çıkmış_soru', kaynak:k19as, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-031', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:4, konu:'Menkul Kıymet Satışı',
+    soru:'İşletmenin maliyeti 15.000 TL olan hisse senetleri 16.000 TL\'ye satılmış ve para banka hesabına yatırılmıştır. Bu bilgilere göre yapılacak yevmiye kaydında aşağıdakilerden hangisi doğrudur?',
+    secenekler:{A:'Hisse Senetleri Hesabı 16.000 alacaklandırılır.',B:'Satılan Ticari Mallar Maliyeti Hesabı 16.000 alacaklandırılır.',C:'Banka Hesabı 15.000 borçlandırılır.',D:'Hisse Senetleri Hesabı 15.000 alacaklandırılır.',E:'Menkul Kıymet Satış Kârları hesabı 1.000 borçlandırılır.'},
+    dogruCevap:'D', aciklama:'Kayıt: Bankalar 16.000 (Borç) / Hisse Senetleri 15.000 (Alacak) / Menkul Kıymet Satış Kârları 1.000 (Alacak). Hisse Senetleri, maliyet değeri olan 15.000 TL üzerinden alacaklandırılır. Kâr (1.000 TL) ayrıca alacaklanır.',
+    nedenDigerleriDegil:'A: 16.000 değil 15.000; B: STMM hisse senedi için kullanılmaz; C: Banka 16.000 borçlanır; E: Kâr hesabı alacaklanır, borçlandırılmaz.',
+    soruTipi:'çıkmış_soru', kaynak:k19as, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-032', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:1, konu:'Muhasebe İlkeleri',
+    soru:'Zaman içinde gelişerek günümüze gelen, muhasebecilere finansal nitelikteki olayları ölçmeleri ve raporlamaları için yol gösteren ve işletmeler tarafından kullanılan ayrıntılı esaslar aşağıdakilerden hangisidir?',
+    secenekler:{A:'Türk Ticaret Kanunu',B:'Sermaye Piyasası Kanunu',C:'Vergi Usul Kanunu',D:'Muhasebe Standartları',E:'Genel Kabul Görmüş Muhasebe İlkeleri'},
+    dogruCevap:'E', aciklama:'Genel Kabul Görmüş Muhasebe İlkeleri (GKGMİ/GAAP); uygulamalar, gelenekler ve standartların zamanla şekillenmesiyle oluşmuş ve muhasebecilere rehberlik eden kapsamlı esaslar bütünüdür. Muhasebe standartları ise daha resmi ve spesifik kurallardır.',
+    nedenDigerleriDegil:'TTK, SPK ve VUK yasal düzenlemeler; muhasebe standartları spesifik kurallar; GKGMİ daha kapsamlı ve tarihsel birikimi olan ilkeler bütünüdür.',
+    soruTipi:'çıkmış_soru', kaynak:k19as, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-033', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:5, konu:'Özel Maliyetler',
+    soru:'Kiralanan gayrimenkuller için yapılan, normal tamir-bakım ve temizlik giderleri dışında kalan ve kira bitiminde gayrimenkul sahibine bırakılacak olan ilaveler aşağıdaki hesaplardan hangisinde izlenir?',
+    secenekler:{A:'Gelecek Yıllara Ait Giderler',B:'Binalar',C:'Haklar',D:'Özel maliyetler',E:'Demirbaşlar'},
+    dogruCevap:'D', aciklama:'Kiralık gayrimenkullere yapılan ve kira süresi sonunda sahibine kalacak olan ilave harcamalar "Özel Maliyetler" (264) hesabında izlenir. Kira süresi boyunca amortismana tabi tutulur.',
+    nedenDigerleriDegil:'Binalar mülkiyetteki varlıklar; Haklar patent, lisans vb.; Demirbaşlar taşınabilir varlıklar; GYAGiderler dönem dışı gider aktiflemesi.',
+    soruTipi:'çıkmış_soru', kaynak:k19as, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-034', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:6, konu:'Dönem Başı İşlemleri',
+    soru:'Yeni kurulan bir işletmede, aşağıdakilerden hangisi dönem başı açılış işlemleri kapsamında yer almaz?',
+    secenekler:{A:'Genel geçici mizan',B:'Bilanço düzenlenmesi',C:'Envanter çıkarılması',D:'Yevmiye defterine kayıt',E:'Büyük deftere kayıt'},
+    dogruCevap:'A', aciklama:'Genel geçici mizan dönem sonu işlemidir; dönem boyunca yapılan kayıtların denetimi için çıkarılır. Yeni kurulan işletmede dönem başı açılış işlemleri şunlardır: Açılış envanteri → Açılış bilançosu → Yevmiye kaydı → Büyük deftere aktarım.',
+    nedenDigerleriDegil:'B, C, D, E açılış sürecinin parçalarıdır; genel geçici mizan yalnızca dönem sonu işleminde kullanılır.',
+    soruTipi:'çıkmış_soru', kaynak:k19as, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-035', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:2, konu:'Yevmiye Maddesi Türleri',
+    soru:'Yevmiye maddesi türleri ve tanımlarının doğru eşleştirilmesi aşağıdakilerden hangisidir?\n1. Basit madde — K. Birden çok hesap borçlanırken birden çok hesabın alacaklandığı madde\n2. Bileşik madde — L. Birden çok hesap borçlanırken bir hesabın alacaklandığı madde\n3. Karışık madde — M. Bir hesap borçlanırken bir hesabın alacaklandığı madde',
+    secenekler:{A:'1-L, 2-M, 3-K',B:'1-M, 2-K, 3-L',C:'1-M, 2-L, 3-K',D:'1-L, 2-K, 3-M',E:'1-K, 2-M, 3-L'},
+    dogruCevap:'C', aciklama:'Basit madde (M): 1 borçlu, 1 alacaklı hesap. Bileşik madde (L): Birden fazla borçlu, 1 alacaklı VEYA 1 borçlu, birden fazla alacaklı. Karışık madde (K): Birden fazla borçlu ve birden fazla alacaklı hesap.',
+    nedenDigerleriDegil:'M basit, L bileşik, K karışık tanımları sabit; diğer eşleşmeler yanlıştır.',
+    soruTipi:'çıkmış_soru', kaynak:k19as, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-036', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:3, konu:'Dönen Varlık Artışı',
+    soru:'Aşağıdaki işlemlerin hangisi dönen varlıklar toplamında artışa neden olur?',
+    secenekler:{A:'Çek ciro edilerek ticari mal satın alınması',B:'Elde bulunan bir çekin bankadan tahsil edilmesi',C:'Hisse senetlerinin maliyet değeriyle nakit karşılığı satılması',D:'Banka havalesi ile satıcılara borç ödenmesi',E:'Vadeli olarak ticari mal satın alınması'},
+    dogruCevap:'E', aciklama:'Vadeli mal alımı: Ticari Mallar artar (+dönen varlık), Satıcılar artar (+kısa vadeli borç). Net dönen varlık artışı gerçekleşir. Diğer işlemlerde dönen varlık toplamı değişmez (A, B, C) veya azalır (D).',
+    nedenDigerleriDegil:'A/B/C dönen varlık içi yer değişimi (net sıfır); D banka azalır ve borç azalır (dönen varlık azalır).',
+    soruTipi:'çıkmış_soru', kaynak:k19as, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-037', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:1, konu:'Muhasebe Kavramları',
+    soru:'Muhasebe kavramları ve açıklamaların doğru eşleştirilmesi aşağıdakilerden hangisinde verilmiştir?\n1. İhtiyatlılık — K. İşletmelerin en kötü olasılığı öngörerek gider ve zararlar için karşılık kaydı yapması\n2. Tutarlılık — L. Finansal tabloların tüm önemli yönleriyle açıklanması\n3. Önemlilik — M. Benzer işlem ve olaylarda benzer muhasebe politikalarının uygulanması',
+    secenekler:{A:'1-K, 2-M, 3-L',B:'1-L, 2-M, 3-K',C:'1-M, 2-L, 3-K',D:'1-M, 2-K, 3-L',E:'1-K, 2-L, 3-M'},
+    dogruCevap:'A', aciklama:'İhtiyatlılık (K): En kötü senaryoya göre karşılık ayrılır. Tutarlılık (M): Aynı tür işlemlerde aynı muhasebe politikası uygulanır. Önemlilik (L): Kullanıcı kararını etkileyecek tüm bilgiler açıklanır.',
+    nedenDigerleriDegil:'K ihtiyatlılık, M tutarlılık, L önemlilik kavramlarına karşılık gelir; diğer eşleşmeler yanlıştır.',
+    soruTipi:'çıkmış_soru', kaynak:k19as, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-038', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:5, konu:'Amortisman',
+    soru:'Aşağıdakilerden hangisi amortismana tabi tutulmaz?',
+    secenekler:{A:'Taşıtlar',B:'Demirbaşlar',C:'Boş arsa ve araziler',D:'Binalar',E:'Tesis Makine ve Cihazlar'},
+    dogruCevap:'C', aciklama:'Boş arsa ve araziler; kullanım süresince değer kaybetmediği kabul edildiğinden amortismana tabi tutulmaz. Taşıtlar, demirbaşlar, binalar ve tesis-makine-cihazlar belirli bir ekonomik ömre sahip olduğundan amortismana tabidir.',
+    nedenDigerleriDegil:'Diğer tüm seçenekler zamanla yıprandığından ve/veya ekonomik ömrü sınırlı olduğundan amortisman hesaplanır.',
+    soruTipi:'çıkmış_soru', kaynak:k19as, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-039', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:3, konu:'Dönen Varlıklar',
+    soru:'Aşağıdakilerden hangisi dönen varlıklar hesap grubunda yer almaz?',
+    secenekler:{A:'Alınan Çekler',B:'Hisse Senetleri',C:'Ticari Mallar',D:'Finansman Giderleri',E:'Alıcılar'},
+    dogruCevap:'D', aciklama:'Finansman Giderleri (780) bir gider hesabıdır; dönen varlıklar grubunda yer almaz. Alınan Çekler (121), Kısa Vadeli Menkul Kıymetler (Hisse Senetleri 110), Ticari Mallar (153) ve Alıcılar (120) dönen varlıklar grubundaki hesaplardır.',
+    nedenDigerleriDegil:'A, B, C, E tümü dönen varlıklar içindedir; Finansman Giderleri gider grubuna aittir.',
+    soruTipi:'çıkmış_soru', kaynak:k19as, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-040', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:6, konu:'Envanter',
+    soru:'İşletmenin gerçek durumunun ne olduğunun sayım ve değerleme yapılarak saptanmasına ne ad verilir?',
+    secenekler:{A:'Değerleme',B:'Muhasebe içi envanter',C:'Sayım',D:'Belirleme',E:'Muhasebe dışı envanter'},
+    dogruCevap:'B', aciklama:'Muhasebe içi envanter; muhasebe kayıtlarından hareketle işletmenin varlık ve kaynak değerlerinin gerçek durumunun sayım ve değerleme yoluyla tespit edilmesi işlemidir. Muhasebe dışı envanter ise yalnızca fiziksel sayımı ifade eder.',
+    nedenDigerleriDegil:'Değerleme tek başına fiyat tespiti; sayım (muhasebe dışı) yalnızca fiziksel miktar; muhasebe dışı envanter kayıt yapılmadan önceki fiziksel aşamadır.',
+    soruTipi:'çıkmış_soru', kaynak:k19as, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  // ── 2019 DÖNEMSONU (FİNAL) ──────────────────────────────────────
+  { id:'ISL132-041', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:6, konu:'Envanter',
+    soru:'İşletmenin kâr veya zararını kesin olarak tespit edebilmek ve varlık ile kaynak hesaplarında gerekli düzeltmeleri yapabilmek için ------ ihtiyaç vardır.',
+    secenekler:{A:'amortisman defterine',B:'yevmiye defterine',C:'sayım defterine',D:'büyük deftere',E:'envanter işlemlerine'},
+    dogruCevap:'E', aciklama:'Dönem kârının kesin olarak hesaplanabilmesi için dönem sonu envanter işlemleri yapılmalıdır. Envanter işlemleri; sayım, değerleme ve muhasebe kayıtlarının gerçek duruma uyarlanmasını kapsar.',
+    nedenDigerleriDegil:'Yevmiye ve büyük defter kayıt araçları; amortisman ve sayım defterleri envanterin alt araçları; envanter işlemleri genel süreçtir.',
+    soruTipi:'çıkmış_soru', kaynak:k19ds, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-042', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:3, konu:'Senet / Yevmiye',
+    soru:'Aşağıdaki yevmiye kaydı hangi işleme aittir?\n320 SATICILAR HS. (Borç) XX\n   321 BORÇ SENETLERİ HS. (Alacak) XX',
+    secenekler:{A:'Senetle mal satılmasına',B:'Senetle mal alınmasına',C:'Senetsiz ticari borca karşılık bir senet düzenlenip verilmesine',D:'Kredili mal satılmasına',E:'Vadesi dolan bir borç senedinin yenilenmesine'},
+    dogruCevap:'C', aciklama:'Satıcılar hesabı borçlandırılmış (açık hesap borç kapandı) ve Borç Senetleri alacaklandırılmış (senet verildi). Bu kayıt; daha önce senetsiz olan ticari borcun senet düzenlenerek kapatılmasını gösterir.',
+    nedenDigerleriDegil:'Senetle mal alımı = Ticari Mallar (Borç) / Borç Senetleri (Alacak); bu kayıtta Satıcılar borçlanıyor, dolayısıyla borç dönüşümüdür.',
+    soruTipi:'çıkmış_soru', kaynak:k19ds, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-043', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:3, konu:'Banka Kredisi Türleri',
+    soru:'Aşağıdakilerden hangisi bankaların müşterilerine nakit para vererek kullandırdıkları kredilerden biri değildir?',
+    secenekler:{A:'İştira',B:'Alacaklı cari hesap kredileri',C:'Avans',D:'Borçlu cari hesap kredileri',E:'İskonto'},
+    dogruCevap:'B', aciklama:'Alacaklı cari hesap kredileri banka açısından alacak niteliğindedir; müşterinin bankaya yatırdığı mevduatı kapsar, nakit kredi değildir. İştira, avans, borçlu cari hesap ve iskonto bankanın müşteriye nakit sağladığı kredi türleridir.',
+    nedenDigerleriDegil:'İştira/iskonto senet karşılığı nakit kredi; avans/borçlu cari hesap doğrudan nakit kredi; alacaklı cari hesap ise mevduattır.',
+    soruTipi:'çıkmış_soru', kaynak:k19ds, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-044', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:5, konu:'Peşin Ödenen Gider',
+    soru:'İşletme 15 Kasım\'da 4 aylığına kiraladığı iş yerinin kirasını çek keşide ederek ödemiştir. Bu işlemin kaydında borçlandırılacak hesap aşağıdakilerden hangisidir?',
+    secenekler:{A:'Diğer Olağandışı Gider ve Zararlar',B:'Genel Yönetim Giderleri',C:'Gelecek Yıllara Ait Giderler',D:'Gider Tahakkukları',E:'Gelecek Aylara Ait Giderler'},
+    dogruCevap:'E', aciklama:'15 Kasım\'dan 4 aylık kira = 15 Şubat\'a kadar. Aralık, Ocak, Şubat ayları gelecek aylara ait giderdir. Peşin ödenen bu kısım "Gelecek Aylara Ait Giderler" (180) hesabına aktifleştirilerek borçlandırılır.',
+    nedenDigerleriDegil:'Gelecek yıllara ait giderler 1 yılı aşan prepaid için; gider tahakkuku henüz ödenmemiş gider için; cari ay payı GYG\'ye aktarılır.',
+    soruTipi:'çıkmış_soru', kaynak:k19ds, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-045', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:2, konu:'Düzenleyici Hesaplar',
+    soru:'Pasif düzenleyici hesaplar için aşağıdakilerden hangisi doğrudur?',
+    secenekler:{A:'Bilançonun pasifinde eksi olarak yer alırlar.',B:'Alacak kalanı verirler.',C:'Bilançonun aktifinde eksi olarak yer alırlar.',D:'Dönem kârı veya zararına devredilirler.',E:'Pasif karakterlidirler.'},
+    dogruCevap:'A', aciklama:'Pasif düzenleyici hesaplar bilançonun pasif tarafında ilgili hesabın altında eksi (-) olarak gösterilir. Örneğin sermaye düzenleyici hesaplar, öz kaynaklar toplamından düşülür.',
+    nedenDigerleriDegil:'C aktif düzenleyici hesaplar için doğru; B borç kalanı verirler; D gelir/gider hesapları; E yanlış çünkü borç kalanı verirler.',
+    soruTipi:'çıkmış_soru', kaynak:k19ds, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-046', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:6, konu:'Kâr Türleri',
+    soru:'Vergi kanunlarına uyularak hesaplanan kâra ne ad verilir?',
+    secenekler:{A:'Faaliyet kârı',B:'Olağan kâr',C:'Ticari kâr',D:'Mali kâr',E:'Dönem kârı'},
+    dogruCevap:'D', aciklama:'Mali kâr (vergi matrahı); vergi kanunları çerçevesinde hesaplanan ve üzerinden kurumlar vergisi ödenen kârdır. Ticari kâr muhasebe standartlarına göre hesaplanan kârdır; mali kâr ise vergi mevzuatına göre hesaplanır ve ikisi arasında fark olabilir.',
+    nedenDigerleriDegil:'Faaliyet kârı = net satış − STMM − faaliyet giderleri; olağan kâr daha geniş kapsamlı; dönem kârı vergiden önceki kâr; ticari kâr muhasebe kârı.',
+    soruTipi:'çıkmış_soru', kaynak:k19ds, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-047', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:1, konu:'Muhasebe İlkeleri',
+    soru:'Gelir ve giderlerin dönemle ilişkilendirilmesinde aşağıdaki ilkelerden hangisi uygulanır?',
+    secenekler:{A:'Maliyet',B:'Tahakkuk',C:'Tutuculuk',D:'Önemlilik',E:'Süreklilik'},
+    dogruCevap:'B', aciklama:'Tahakkuk ilkesi; gelir ve giderlerin nakit akışından bağımsız olarak, ait oldukları dönemde muhasebeleştirilmesini öngörür. Bu ilke sayesinde dönem kârı nakit esası yerine tahakkuk esasına göre hesaplanır.',
+    nedenDigerleriDegil:'Maliyet değerleme; tutuculuk ihtiyatlılık anlamında; önemlilik açıklama eşiği; süreklilik işletmenin devamı varsayımı.',
+    soruTipi:'çıkmış_soru', kaynak:k19ds, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-048', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:3, konu:'Ödenmiş Sermaye',
+    soru:'Ödenmiş Sermaye Hesabı ile ilgili aşağıdaki ifadelerden hangisi doğrudur?',
+    secenekler:{A:'İşletmenin ortaklarından olan sermaye alacağıdır.',B:'İşletmeye henüz yatırılmayan sermaye tutarıdır.',C:'Ortakların işletmeye olan sermaye borcudur.',D:'İşletmeye tahsis edilen sermayeden henüz ödenmemiş sermaye düşülerek bulunan tutardır.',E:'Ortakların işletmeye taahhüt ettikleri sermaye tutarıdır.'},
+    dogruCevap:'D', aciklama:'Ödenmiş Sermaye = Taahhüt Edilen Sermaye − Ödenmemiş Sermaye. Ortaklar taahhüt ettikleri toplam sermayeden henüz ödemedikleri kısım düşüldükten sonra kalan, fiilen işletmeye yatırılmış kısımdır.',
+    nedenDigerleriDegil:'A ve C ödenmemiş sermayeyi tanımlar; B de ödenmemiş; E taahhüt edilen sermaye = kayıtlı sermayedir.',
+    soruTipi:'çıkmış_soru', kaynak:k19ds, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-049', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:6, konu:'Gelir Tablosu',
+    soru:'Aşağıdaki hesaplardan hangisi gelir tablosunun faaliyet giderleri grubunda yer alan bir hesaptır?',
+    secenekler:{A:'Satılan Hizmet Maliyeti',B:'Kısa Vadeli Borçlanma Giderleri',C:'Genel Yönetim Giderleri',D:'Kambiyo Zararları',E:'Komisyon Giderleri'},
+    dogruCevap:'C', aciklama:'Gelir tablosunda faaliyet giderleri; Araştırma-Geliştirme Giderleri, Pazarlama Satış Dağıtım Giderleri ve Genel Yönetim Giderleri\'nden oluşur. Genel Yönetim Giderleri (770) bu grubun temel hesabıdır.',
+    nedenDigerleriDegil:'Satılan Hizmet Maliyeti brüt kâr bölümü; Kısa Vadeli Borçlanma Giderleri ve Kambiyo Zararları finansman giderleri; Komisyon Giderleri pazarlama veya finansman.',
+    soruTipi:'çıkmış_soru', kaynak:k19ds, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-050', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:3, konu:'Vergi Yükümlülükleri',
+    soru:'Aşağıdaki hesaplardan hangisi Ödenecek Vergi ve Diğer Yükümlülükler grubunda yer almaz?',
+    secenekler:{A:'Peşin Ödenen Vergi ve Fonlar',B:'Ödenecek Diğer Yükümlülükler',C:'Ödenecek Sosyal Güvenlik Kesintileri',D:'Ödenecek Vergi ve Fonlar',E:'Vadesi Geçmiş Ertelenmiş veya Taksitlendirilmiş Vergi ve Diğer Yükümlülükler'},
+    dogruCevap:'A', aciklama:'"Peşin Ödenen Vergi ve Fonlar" (193) aktif bir hesaptır; işletmenin ileride geri alacağı veya mahsup edebileceği peşin vergileri gösterir. Bu hesap kısa vadeli yükümlülükler grubunda değil, dönen varlıklar içinde yer alır.',
+    nedenDigerleriDegil:'B, C, D, E tümü kısa vadeli yabancı kaynaklar altındaki Ödenecek Vergi ve Yükümlülükler grubunda yer alır.',
+    soruTipi:'çıkmış_soru', kaynak:k19ds, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-051', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:6, konu:'Gelir-Maliyet-Gider',
+    soru:'Aşağıdaki kavramlar ve açıklamaların doğru eşleştirilmesi hangisidir?\n1. Gelir — K. Hasılat sağlamak amacıyla yapılan aktif tükenmeleridir\n2. Maliyet — L. İşletmelerin ana faaliyet konusu veya dışındaki işlemlerden elde ettiği brüt tutarlardır\n3. Gider — M. İşletmeye bir varlık girişi sağlayarak aktifte artışa neden olan harcamalardır',
+    secenekler:{A:'1-K, 2-L, 3-M',B:'1-L, 2-M, 3-K',C:'1-L, 2-K, 3-M',D:'1-M, 2-L, 3-K',E:'1-M, 2-K, 3-L'},
+    dogruCevap:'C', aciklama:'Gelir (L): İşletmenin faaliyetlerinden elde ettiği brüt hasılat. Maliyet (K): Hasılat yaratmak amacıyla tüketilen aktif değerler (örn. STMM). Gider (M): Aktife giren ve sonradan tüketilecek harcamalar.',
+    nedenDigerleriDegil:'L gelir, K maliyet, M gider tanımına karşılık gelir; diğer eşleşmeler kavramları karıştırır.',
+    soruTipi:'çıkmış_soru', kaynak:k19ds, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-052', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:6, konu:'Muhasebe Dışı Envanter',
+    soru:'Aşağıdakilerden hangisi muhasebe dışı envanter kapsamında değildir?',
+    secenekler:{A:'Demirbaşların sayılması',B:'Stoktaki malların sayılması',C:'Kasadaki yabancı paranın sayılması ve değerlemesi',D:'Stok sayım sonuçlarına göre ilgili hesaplara kayıt yapılması',E:'Kasa mevcudunun sayılması'},
+    dogruCevap:'D', aciklama:'Muhasebe dışı envanter; fiziksel sayım ve değerleme aşamasını kapsar. "İlgili hesaplara kayıt yapılması" ise muhasebe içi envanterin bir işlemidir; kayıt yapmak doğası gereği muhasebe işlemidir.',
+    nedenDigerleriDegil:'A, B, C, E fiziksel sayım işlemleridir (muhasebe dışı envanter); D muhasebe kaydı olduğundan muhasebe içi envantere aittir.',
+    soruTipi:'çıkmış_soru', kaynak:k19ds, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-053', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:4, konu:'Menkul Kıymetler',
+    soru:'Aşağıdakilerden hangisi menkul kıymetler kapsamında değildir?',
+    secenekler:{A:'Alınan çekler',B:'Tahviller',C:'Finansman bonoları',D:'Hazine bonoları',E:'Hisse senetleri'},
+    dogruCevap:'A', aciklama:'"Alınan Çekler" (121) ticari alacaklar grubunda yer alır ve menkul kıymet sayılmaz. Tahvil, finansman bonosu, hazine bonosu ve hisse senetleri ise Tekdüzen Hesap Planı\'nda menkul kıymetler (110–119) grubunda izlenir.',
+    nedenDigerleriDegil:'B, C, D, E finansal araç niteliğinde menkul kıymettir; alınan çek ticari alacak niteliğindedir.',
+    soruTipi:'çıkmış_soru', kaynak:k19ds, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-054', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:3, konu:'Yedek Akçe',
+    soru:'İşletmelerde yedek ayırmak aşağıdakilerden hangisine sebep olmaz?',
+    secenekler:{A:'Borçların zamanında ödenmesine',B:'Düzenli kâr payı dağıtımına',C:'Öz sermayeyi risklere karşı koruyarak sağlam tutmasına',D:'İşletmenin güçlü öz kaynakla gelişmesine ve sürekliliğini sağlamasına',E:'Alacaklıların haklarının korunmamasına'},
+    dogruCevap:'A', aciklama:'Yedek akçeler işletmenin öz kaynağında tutulur; kâr payı istikrarını sağlar, öz sermayeyi korur, güçlü büyümeyi destekler ve alacaklıları güvenceye alır. Ancak yedek akçe borçların zamanında ödenmesini doğrudan garanti etmez; bu likidite yönetimiyle ilgilidir.',
+    nedenDigerleriDegil:'B, C, D, E yedek ayırmanın bilinen amaçları ve faydalarıdır; A nakit akışı yönetimiyle ilgilidir.',
+    soruTipi:'çıkmış_soru', kaynak:k19ds, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-055', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:3, konu:'Yedek Türleri',
+    soru:'Aşağıdaki yedek akçe türlerinden hangisi sermaye şirketlerinde genel kurul kararıyla ayrılır?',
+    secenekler:{A:'Olağanüstü yedekler',B:'Özel fonlar',C:'Statü yedekleri',D:'Diğer kâr yedekleri',E:'Yasal yedekler'},
+    dogruCevap:'A', aciklama:'Olağanüstü yedekler (veya ihtiyari yedekler), şirketin genel kurulunun serbestçe karar verdiği ve tutarını belirlediği yedek akçelerdir. Yasal yedekler TTK zorunluluğu, statü yedekleri ana sözleşme hükmüdür; bunlar genel kurulun takdirinde değildir.',
+    nedenDigerleriDegil:'Yasal yedek TTK zorunlu; statü yedek ana sözleşme şartı; özel fonlar ve diğer kâr yedekleri farklı ayrım esaslarına tabidir.',
+    soruTipi:'çıkmış_soru', kaynak:k19ds, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-056', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:3, konu:'Sermaye Yedekleri',
+    soru:'Aşağıdakilerden hangisi sermaye yedekleri hesap grubunda yer almaz?',
+    secenekler:{A:'Hisse senedi ihraç primleri',B:'Hisse senedi iptal kârları',C:'Özel fonlar',D:'MDV yeniden değerleme artışı',E:'İştirakler yeniden değerleme artışı'},
+    dogruCevap:'C', aciklama:'"Özel Fonlar" kâr yedekleri grubunda yer alır, sermaye yedekleri grubunda değil. Hisse senedi ihraç primleri, hisse senedi iptal kârları ve yeniden değerleme artışları sermaye yedekleri grubundadır.',
+    nedenDigerleriDegil:'A, B, D, E sermaye yedekleri (52x) grubunun hesaplarıdır; Özel Fonlar (549) kâr yedekleri grubundadır.',
+    soruTipi:'çıkmış_soru', kaynak:k19ds, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-057', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:3, konu:'Kredi Yevmiyesi',
+    soru:'Aşağıdaki yevmiye kaydı hangi ifadeye aittir?\n780 FİNANSMAN GİDERLERİ HS. (Borç) XX\n300 BANKA KREDİLERİ HS. (Alacak) XX\n102 BANKALAR HS. (Alacak) XX',
+    secenekler:{A:'Alınan kredi ticari mevduat hesabına aktarılmıştır.',B:'Alınan kredi tutarı vade sonunda tahakkuk eden faiziyle birlikte ticari mevduat hesabından ödenmiştir.',C:'Bankadaki ticari mevduat hesabı kapatılmıştır.',D:'İşletme bankadan kredi çekmiştir.',E:'Alınan kredi tutarı vade sonunda faiziyle birlikte senet karşılığı ödenmiştir.'},
+    dogruCevap:'B', aciklama:'780 Finansman Giderleri borçlanmış (faiz gideri), 300 Banka Kredileri alacaklanmış (kredi anaparası kapatıldı) ve 102 Bankalar alacaklanmış (nakit çıkışı). Bu kayıt kredinin anaparası ve faizinin nakit olarak ödendiğini gösterir.',
+    nedenDigerleriDegil:'D kredi alınırken 102 borçlanır/300 alacaklanır; A/C farklı işlemler; E senet karşılığı olsaydı Senetler hesabı kullanılırdı.',
+    soruTipi:'çıkmış_soru', kaynak:k19ds, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-058', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:2, konu:'Hesap Kalanları',
+    soru:'Hesaplarla ilgili aşağıdaki ifadelerden hangisi doğrudur?',
+    secenekler:{A:'Kaynak hesaplarının ilk açılışında borç tarafına kayıt yapılır.',B:'Gider hesapları her zaman alacak kalanı verirler.',C:'Varlık hesapları her zaman borç kalanı verirler.',D:'Gider hesaplarının ilk açılışında alacak tarafına kayıt yapılır.',E:'Gelir hesapları her zaman borç kalanı verirler.'},
+    dogruCevap:'C', aciklama:'Varlık hesapları aktif hesaplardır; artışlar borç tarafına kaydedilir ve dönem sonunda borç kalanı verirler. Kaynak hesapları alacak kalanı verir; gider hesapları borç kalanı verir; gelir hesapları alacak kalanı verir.',
+    nedenDigerleriDegil:'A kaynak ilk açılışta alacaklanır; B ve D gider hesabı borç kalanı verir (alacak değil); E gelir alacak kalanı verir.',
+    soruTipi:'çıkmış_soru', kaynak:k19ds, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-059', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:5, konu:'Azalan Bakiyeler Amortisman',
+    soru:'20.000 TL maliyetli bir demirbaşın, 5 yıl üzerinden, azalan bakiyeler usulüne göre hesaplanan ilk yıl amortisman tutarı kaç TL\'dir?',
+    secenekler:{A:'4.000',B:'5.000',C:'6.000',D:'7.000',E:'8.000'},
+    dogruCevap:'E', aciklama:'Normal oran = 1/5 = %20. Azalan bakiyeler oranı = %20 × 2 = %40. İlk yıl amortisman = 20.000 × %40 = 8.000 TL. Azalan bakiyeler yönteminde her yıl kalan defter değerine sabit oran uygulanır.',
+    nedenDigerleriDegil:'4.000 = normal yöntemle (20.000/5); diğerleri yanlış oran hesaplamalarından kaynaklanır.',
+    soruTipi:'çıkmış_soru', kaynak:k19ds, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+
+  { id:'ISL132-060', dersKodu:'İŞL132U', dersAdi:'Finansal Muhasebe', unite:6, konu:'Gelir Tablosu Bölümleri',
+    soru:'Aşağıdakilerden hangisi gelir tablosunun brüt kâr bölümünde yer almaz?',
+    secenekler:{A:'Satış İadeleri',B:'Satılan malın maliyeti',C:'Satış iskonto',D:'Pazarlama giderleri',E:'Net satışlar'},
+    dogruCevap:'D', aciklama:'Gelir tablosunun brüt kâr bölümü: Brüt satışlar − Satış iadeleri − Satış iskontosu = Net satışlar; Net satışlar − Satılan malın maliyeti = Brüt kâr. Pazarlama giderleri brüt kârdan sonra faaliyet giderleri bölümünde yer alır.',
+    nedenDigerleriDegil:'A, B, C, E brüt kâr hesaplamasının doğrudan bileşenleridir; pazarlama giderleri faaliyet giderleri bölümüne aittir.',
+    soruTipi:'çıkmış_soru', kaynak:k19ds, guvenDurumu:'kontrol_edildi', kontrolEden:'aof.tc-gorsel' },
+];
+
+// Mevcut İŞL132U sorularını koru, yenileri ekle
+const guncellenmis = [...sorular, ...yeni];
+fs.writeFileSync(filePath, JSON.stringify(guncellenmis, null, 2), 'utf8');
+
+const isl132 = guncellenmis.filter(s => s.dersKodu === 'İŞL132U');
+console.log(`✓ Toplam ${guncellenmis.length} soru. İŞL132U: ${isl132.length} soru (${isl132.filter(s=>s.guvenDurumu==='kontrol_edildi').length} kontrol_edildi)`);
